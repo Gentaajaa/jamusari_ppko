@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///D:/Perkuliahan/PPKO_HMIF/Jamuan_Guwosari/jamsari/src/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport styles from \"./page.module.css\";\n\nexport default function Home() {\n  return (\n    <p className=\"text-3xl underline text-purple-950\">\n      Hello world!\n    </p>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAGe,SAAS;IACtB,qBACE,8OAAC;QAAE,WAAU;kBAAqC;;;;;;AAItD","debugId":null}}]
+}
