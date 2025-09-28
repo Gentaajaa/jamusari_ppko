@@ -8,11 +8,11 @@ import Image from "next/image"
 const products = [
     {
         id: 1,
-        name: "Milky Turmeric",
+        name: "Rosella Freshmilk",
         description: "Minuman tradisional dengan kunyit segar dan asam jawa yang menyegarkan",
         price: "Rp 10.000",
         category: "traditional",
-        image: "/images/produk/milky_turmeric.png",
+        image: "/images/produk/rosella_freshmilk.png",
         badge: "Best Seller",
         recipe: [
             "200g kunyit segar, parut halus",

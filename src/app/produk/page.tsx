@@ -11,6 +11,8 @@ export default function ProdukPage() {
                 title="Produk Jamusari"
                 subtitle="Koleksi lengkap jamu kekinian dengan cita rasa autentik dan khasiat yang terjaga"
                 backgroundImage="/images/hero_produk.png"
+                supportingImage="/images/hero_produk_supporting.png"
+
             />
 
             <section className="py-16 bg-white">

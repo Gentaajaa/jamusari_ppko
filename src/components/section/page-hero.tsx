@@ -1,3 +1,6 @@
+import Image from "next/image" //Gunakan Import Ini Jika menggunakan Gambar
+
+
 interface PageHeroProps {
     title: string
     subtitle?: string
@@ -31,10 +34,12 @@ export default function PageHero({ title, subtitle, backgroundImage, supportingI
                         {supportingImage && (
                             <div className="flex justify-center lg:justify-end">
                                 <div className="relative">
-                                    <img
+                                    <Image
                                         src={supportingImage || "/placeholder.svg"}
                                         alt="Supporting visual"
-                                        className="w-full max-w-md h-auto object-cover rounded-2xl shadow-2xl"
+                                        className="object-cover shadow-2xl"
+                                        width={800}
+                                        height={800}
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
                                 </div>

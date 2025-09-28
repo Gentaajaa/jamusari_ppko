@@ -86,6 +86,8 @@ __turbopack_context__.s([
     ()=>PageHero
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)"); //Gunakan Import Ini Jika menggunakan Gambar
+;
 ;
 function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -100,26 +102,26 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 14,
+                        lineNumber: 17,
                         columnNumber: 21
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-full h-full bg-gradient-to-br from-primary/20 via-primary/10 to-secondary/20"
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 16,
+                        lineNumber: 19,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-black/40"
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 18,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/section/page-hero.tsx",
-                lineNumber: 12,
+                lineNumber: 15,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -137,7 +139,7 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                                         children: title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/section/page-hero.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 29,
                                         columnNumber: 29
                                     }, this),
                                     subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -145,13 +147,13 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                                         children: subtitle
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/section/page-hero.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 30,
                                         columnNumber: 42
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/section/page-hero.tsx",
-                                lineNumber: 25,
+                                lineNumber: 28,
                                 columnNumber: 25
                             }, this),
                             supportingImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -159,47 +161,49 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             src: supportingImage || "/placeholder.svg",
                                             alt: "Supporting visual",
-                                            className: "w-full max-w-md h-auto object-cover rounded-2xl shadow-2xl"
+                                            className: "object-cover shadow-2xl",
+                                            width: 800,
+                                            height: 800
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/page-hero.tsx",
-                                            lineNumber: 34,
+                                            lineNumber: 37,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/page-hero.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 44,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/section/page-hero.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 36,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/section/page-hero.tsx",
-                                lineNumber: 32,
+                                lineNumber: 35,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 23,
+                        lineNumber: 26,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/section/page-hero.tsx",
-                    lineNumber: 22,
+                    lineNumber: 25,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/section/page-hero.tsx",
-                lineNumber: 21,
+                lineNumber: 24,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -216,23 +220,23 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                         d: "M19 14l-7 7m0 0l-7-7m7 7V3"
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 50,
+                        lineNumber: 55,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/section/page-hero.tsx",
-                    lineNumber: 49,
+                    lineNumber: 54,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/section/page-hero.tsx",
-                lineNumber: 48,
+                lineNumber: 53,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/section/page-hero.tsx",
-        lineNumber: 10,
+        lineNumber: 13,
         columnNumber: 9
     }, this);
 }
@@ -261,7 +265,8 @@ function ProdukPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$page$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 title: "Produk Jamusari",
                 subtitle: "Koleksi lengkap jamu kekinian dengan cita rasa autentik dan khasiat yang terjaga",
-                backgroundImage: "/images/hero_produk.png"
+                backgroundImage: "/images/hero_produk.png",
+                supportingImage: "/images/hero_produk_supporting.png"
             }, void 0, false, {
                 fileName: "[project]/src/app/produk/page.tsx",
                 lineNumber: 10,
@@ -284,12 +289,12 @@ function ProdukPage() {
                                     height: 300
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/produk/page.tsx",
-                                    lineNumber: 20,
+                                    lineNumber: 22,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/produk/page.tsx",
-                                lineNumber: 19,
+                                lineNumber: 21,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -304,13 +309,13 @@ function ProdukPage() {
                                                 children: "Kekinian"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/produk/page.tsx",
-                                                lineNumber: 30,
+                                                lineNumber: 32,
                                                 columnNumber: 38
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/produk/page.tsx",
-                                        lineNumber: 29,
+                                        lineNumber: 31,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -318,7 +323,7 @@ function ProdukPage() {
                                         children: "Setiap produk Jamusari dibuat dengan modifikasi agar lebih kekinian, semua dikemas dengan sentuhan modern yang sesuai dengan selera masa kini. Kami menggunakan bahan-bahan alami pilihan yang berkualitas tinggi."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/produk/page.tsx",
-                                        lineNumber: 32,
+                                        lineNumber: 34,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -326,39 +331,39 @@ function ProdukPage() {
                                         children: "Di Jamusari, kami menghadirkan jamu dengan kreasi modern mulai dari varian milk base yang creamy hingga sparkling soda base yang segar, memberikan pengalaman sehat sekaligus menyenangkan di setiap tegukan."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/produk/page.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 39,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/produk/page.tsx",
-                                lineNumber: 28,
+                                lineNumber: 30,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/produk/page.tsx",
-                        lineNumber: 18,
+                        lineNumber: 20,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/produk/page.tsx",
-                    lineNumber: 17,
+                    lineNumber: 19,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/produk/page.tsx",
-                lineNumber: 16,
+                lineNumber: 18,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$product$2d$categories$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/produk/page.tsx",
-                lineNumber: 46,
+                lineNumber: 48,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$product$2d$grid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/produk/page.tsx",
-                lineNumber: 47,
+                lineNumber: 49,
                 columnNumber: 13
             }, this)
         ]
