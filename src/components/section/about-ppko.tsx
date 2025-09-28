@@ -4,7 +4,7 @@ export default function AboutPPKO() {
             <div className="mx-auto px-2 sm:px-4 md:px-6 lg:px-8">
                 <div className="max-w-sm mx-auto sm:max-w-2xl md:max-w-4xl lg:max-w-5xl text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                        Apa itu <span className="text-yellow-jamsari">Jamsari</span>?
+                        Apa itu <span className="text-yellow-jamsari">Jamusari</span>?
                     </h2>
                     <p className="text-lg text-muted-foreground text-balance mb-8">
                         Jamusari adalah program pemberdayaan masyarakat Desa Guwosari yang menggabungkan edukasi, konservasi, dan inovasi produk berbasis Tanaman Obat Keluarga (TOGA).
