@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 const categories = [
     { id: "all", name: "Semua Produk" },
     { id: "traditional", name: "Best Seller" },
-    { id: "modern", name: "Milk base" },
-    { id: "seasonal", name: "Sparkling Base" },
+    { id: "Milk Base", name: "Milk base" },
+    { id: "Sparkling Base", name: "Sparkling Base" },
 ]
 
 export default function ProductCategories() {

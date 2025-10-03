@@ -266,7 +266,7 @@ function ProdukPage() {
                 title: "Produk Jamusari",
                 subtitle: "Koleksi lengkap jamu kekinian dengan cita rasa autentik dan khasiat yang terjaga",
                 backgroundImage: "/images/hero_produk.png",
-                supportingImage: "/images/hero_produk_supporting.png"
+                supportingImage: "/images/hero_side_produk.png"
             }, void 0, false, {
                 fileName: "[project]/src/app/produk/page.tsx",
                 lineNumber: 10,
@@ -284,9 +284,8 @@ function ProdukPage() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                     src: "/images/produk/pelatihan_jamu.png",
                                     alt: "Berbagai Minuman Jamu",
-                                    className: "w-full object-cover border-4 border-yellow-jamsari rounded-4xl shadow-lg",
-                                    width: 300,
-                                    height: 300
+                                    width: 800,
+                                    height: 800
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/produk/page.tsx",
                                     lineNumber: 22,
@@ -309,13 +308,13 @@ function ProdukPage() {
                                                 children: "Kekinian"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/produk/page.tsx",
-                                                lineNumber: 32,
+                                                lineNumber: 31,
                                                 columnNumber: 38
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/produk/page.tsx",
-                                        lineNumber: 31,
+                                        lineNumber: 30,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -323,7 +322,7 @@ function ProdukPage() {
                                         children: "Setiap produk Jamusari dibuat dengan modifikasi agar lebih kekinian, semua dikemas dengan sentuhan modern yang sesuai dengan selera masa kini. Kami menggunakan bahan-bahan alami pilihan yang berkualitas tinggi."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/produk/page.tsx",
-                                        lineNumber: 34,
+                                        lineNumber: 33,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -331,13 +330,13 @@ function ProdukPage() {
                                         children: "Di Jamusari, kami menghadirkan jamu dengan kreasi modern mulai dari varian milk base yang creamy hingga sparkling soda base yang segar, memberikan pengalaman sehat sekaligus menyenangkan di setiap tegukan."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/produk/page.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 38,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/produk/page.tsx",
-                                lineNumber: 30,
+                                lineNumber: 29,
                                 columnNumber: 25
                             }, this)
                         ]
@@ -358,12 +357,12 @@ function ProdukPage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$product$2d$categories$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/produk/page.tsx",
-                lineNumber: 48,
+                lineNumber: 47,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$product$2d$grid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/produk/page.tsx",
-                lineNumber: 49,
+                lineNumber: 48,
                 columnNumber: 13
             }, this)
         ]

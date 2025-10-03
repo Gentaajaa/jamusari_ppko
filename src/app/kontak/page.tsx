@@ -50,7 +50,7 @@ export default function KontakPage() {
                     <div className="text-center mb-12">
                         <h1 className="text-4xl font-bold text-gray-900 mb-4">Kontak Kami</h1>
                         <p className="text-lg text-gray-600">
-                            Hubungi kami untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk PPKO
+                            Hubungi kami untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk Jamusari
                         </p>
                     </div>
 
@@ -126,7 +126,7 @@ export default function KontakPage() {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-gray-900">Email Resmi</h3>
-                                    <p className="text-gray-600">info@ppko.co.id</p>
+                                    <p className="text-gray-600">ppkormawahmifuii@gmail.com</p>
                                 </div>
                             </div>
 
@@ -136,15 +136,32 @@ export default function KontakPage() {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-gray-900">Instagram</h3>
-                                    <p className="text-gray-600">@ppko_official</p>
+                                    <p className="text-gray-600">@ppko.hmifuii</p>
+                                </div>
+                            </div>
+
+                            <div className="flex items-center gap-4 p-4 bg-white/50 rounded-xl">
+                                <div className="bg-secondary/10 p-3 rounded-full">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        fill="currentColor"
+                                        className="h-6 w-6 text-secondary"
+                                    >
+                                        <path d="M12.5 2h3.1c.1 1.3.7 2.6 1.7 3.5s2.2 1.4 3.5 1.5v3.1c-1.2 0-2.4-.3-3.5-.9v6.9c0 1.7-.7 3.3-1.9 4.5s-2.8 1.9-4.5 1.9-3.3-.7-4.5-1.9-1.9-2.8-1.9-4.5 1-3.5 2.6-4.6c1.1-.7 2.4-1 3.8-.9v3.2c-.5-.1-1 .1-1.4.4-.4.3-.7.8-.7 1.3 0 .5.2 1 .6 1.4.4.4.9.6 1.4.6.5 0 1-.2 1.3-.7.3-.4.5-.9.4-1.4V2z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3 className="font-semibold text-gray-900">TikTok</h3>
+                                    <p className="text-gray-600">@ppko.hmifuii</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="mt-8 p-4 bg-primary/5 rounded-xl border border-primary/20">
                             <p className="text-sm text-gray-600 text-center">
-                                Tim kami akan merespons pesan Anda dalam waktu 1-2 hari kerja. Terima kasih atas kepercayaan Anda pada
-                                produk PPKO!
+                                Tim kami akan merespons pesan Anda dalam waktu 1 hari kerja. Terima kasih atas kepercayaan Anda pada
+                                produk Jamusari!
                             </p>
                         </div>
                     </div>

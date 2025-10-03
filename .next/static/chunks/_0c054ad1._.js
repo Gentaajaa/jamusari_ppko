@@ -195,7 +195,7 @@ function KontakPage() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg text-gray-600",
-                                    children: "Hubungi kami untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk PPKO"
+                                    children: "Hubungi kami untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk Jamusari"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/kontak/page.tsx",
                                     lineNumber: 52,
@@ -378,7 +378,7 @@ function KontakPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-gray-600",
-                                                            children: "info@ppko.co.id"
+                                                            children: "ppkormawahmifuii@gmail.com"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/kontak/page.tsx",
                                                             lineNumber: 129,
@@ -425,7 +425,7 @@ function KontakPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-gray-600",
-                                                            children: "@ppko_official"
+                                                            children: "@ppko.hmifuii"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/kontak/page.tsx",
                                                             lineNumber: 139,
@@ -442,6 +442,63 @@ function KontakPage() {
                                             fileName: "[project]/src/app/kontak/page.tsx",
                                             lineNumber: 133,
                                             columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "flex items-center gap-4 p-4 bg-white/50 rounded-xl",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "bg-secondary/10 p-3 rounded-full",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                        xmlns: "http://www.w3.org/2000/svg",
+                                                        viewBox: "0 0 24 24",
+                                                        fill: "currentColor",
+                                                        className: "h-6 w-6 text-secondary",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                            d: "M12.5 2h3.1c.1 1.3.7 2.6 1.7 3.5s2.2 1.4 3.5 1.5v3.1c-1.2 0-2.4-.3-3.5-.9v6.9c0 1.7-.7 3.3-1.9 4.5s-2.8 1.9-4.5 1.9-3.3-.7-4.5-1.9-1.9-2.8-1.9-4.5 1-3.5 2.6-4.6c1.1-.7 2.4-1 3.8-.9v3.2c-.5-.1-1 .1-1.4.4-.4.3-.7.8-.7 1.3 0 .5.2 1 .6 1.4.4.4.9.6 1.4.6.5 0 1-.2 1.3-.7.3-.4.5-.9.4-1.4V2z"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/kontak/page.tsx",
+                                                            lineNumber: 151,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/kontak/page.tsx",
+                                                        lineNumber: 145,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/kontak/page.tsx",
+                                                    lineNumber: 144,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            className: "font-semibold text-gray-900",
+                                                            children: "TikTok"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/kontak/page.tsx",
+                                                            lineNumber: 155,
+                                                            columnNumber: 37
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-gray-600",
+                                                            children: "@ppko.hmifuii"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/kontak/page.tsx",
+                                                            lineNumber: 156,
+                                                            columnNumber: 37
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/kontak/page.tsx",
+                                                    lineNumber: 154,
+                                                    columnNumber: 33
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/kontak/page.tsx",
+                                            lineNumber: 143,
+                                            columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
@@ -453,15 +510,15 @@ function KontakPage() {
                                     className: "mt-8 p-4 bg-primary/5 rounded-xl border border-primary/20",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-sm text-gray-600 text-center",
-                                        children: "Tim kami akan merespons pesan Anda dalam waktu 1-2 hari kerja. Terima kasih atas kepercayaan Anda pada produk PPKO!"
+                                        children: "Tim kami akan merespons pesan Anda dalam waktu 1 hari kerja. Terima kasih atas kepercayaan Anda pada produk Jamusari!"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/kontak/page.tsx",
-                                        lineNumber: 145,
+                                        lineNumber: 162,
                                         columnNumber: 29
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/kontak/page.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 161,
                                     columnNumber: 25
                                 }, this)
                             ]

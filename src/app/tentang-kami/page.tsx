@@ -1,4 +1,6 @@
 import PageHero from "@/components/section/page-hero"
+import Image from "next/image" //Gunakan Import Ini Jika menggunakan Gambar
+
 
 export default function TentangKamiPage() {
     return (
@@ -6,13 +8,12 @@ export default function TentangKamiPage() {
             <PageHero
                 title="Tentang Kami"
                 subtitle="Mengenal lebih dekat tim PPKO dan perjalanan kami dalam mengembangkan program deJamuanz"
-                backgroundImage="/traditional-indonesian-herbs-and-spices-background.jpg"
-                supportingImage="/team-working-together-in-modern-cafe.jpg"
+                backgroundImage="/images/hero_aboutus.png"
             />
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+                    <div className="grid lg:grid-cols-1 gap-12 items-center max-w-6xl mx-auto">
                         <div className="space-y-6">
                             <h2 className="text-3xl md:text-4xl font-bold text-balance">
                                 Perjalanan <span className="text-primary">Jamusari</span>
@@ -26,13 +27,6 @@ export default function TentangKamiPage() {
                                 masyarakat untuk menikmati jamu dengan cara yang modern dan menyenangkan.
                             </p>
                         </div>
-                        <div className="relative">
-                            <img
-                                src="/modern-jamu-cafe-interior.jpg"
-                                alt="Suasana Cafe deJamuanz"
-                                className="w-full h-96 object-cover rounded-2xl shadow-lg"
-                            />
-                        </div>
                     </div>
                 </div>
             </section>
@@ -40,11 +34,12 @@ export default function TentangKamiPage() {
             <section className="py-16 bg-gray-50">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
-                        <div className="relative order-2 lg:order-1">
-                            <img
-                                src="/traditional-indonesian-herbs-and-spices.jpg"
-                                alt="Bahan-bahan Jamu Tradisional"
-                                className="w-full h-96 object-cover rounded-2xl shadow-lg"
+                        <div className="relative">
+                            <Image
+                                src="/images/about_us/profilisasi_02.png"
+                                alt="Visi Misi"
+                                width={600}
+                                height={600}
                             />
                         </div>
                         <div className="space-y-10 order-1 lg:order-2">
@@ -54,10 +49,11 @@ export default function TentangKamiPage() {
                             <div className="space-y-8">
                                 <div>
                                     <h3 className="text-xl font-semibold text-primary mb-2">Visi</h3>
-                                    Menciptakan model pemberdayaan masyarakat desa yang berkelanjutan melalui integrasi kearifan lokal, inovasi teknologi,
-                                    dan kewirausahaan sosial berbasis konservasi alam dengan mewujudkan Desa Guwosari sebagai desa
-                                    mandiri yang mampu mengoptimalkan potensi alamnya untuk kesejahteraan masyarakat sekaligus melestarikan warisan budaya tanaman obat keluarga bagi generasi mendatang.
                                     <p className="text-lg text-muted-foreground leading-relaxed">
+                                        Menciptakan model pemberdayaan masyarakat desa yang berkelanjutan melalui integrasi kearifan lokal, inovasi teknologi,
+                                        dan kewirausahaan sosial berbasis konservasi alam dengan mewujudkan Desa Guwosari sebagai desa
+                                        mandiri yang mampu mengoptimalkan potensi alamnya untuk kesejahteraan masyarakat sekaligus melestarikan warisan budaya
+                                        tanaman obat keluarga bagi generasi mendatang.
                                     </p>
                                 </div>
                                 <div>
@@ -81,25 +77,33 @@ export default function TentangKamiPage() {
                                 Tim <span className="text-primary">Kami</span>
                             </h2>
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                Tim PPKO terdiri dari para ahli yang berpengalaman dalam bidang kuliner, bisnis, dan teknologi. Kami
-                                berkomitmen untuk menghadirkan inovasi terbaik dalam setiap produk dan layanan yang kami tawarkan.
+                                Jamusari digerakkan oleh kolaborasi antara mahasiswa HMIF UII, Kelompok Wanita Tani, dan masyarakat
+                                Desa Guwosari. Kami percaya bahwa jamu bukan hanya warisan budaya, tetapi juga peluang untuk inovasi
+                                dan pemberdayaan.
                             </p>
-                            <div className="grid grid-cols-2 gap-4">
-                                <div className="text-center">
-                                    <div className="text-2xl font-bold text-primary">15+</div>
-                                    <div className="text-sm text-muted-foreground">Tim Ahli</div>
+                            <p className="text-lg text-muted-foreground leading-relaxed">
+                                Dengan semangat kebersamaan, tim kami meracik jamu tradisional menjadi minuman modern yang sehat, lezat,
+                                dan menarik bagi semua generasi. Setiap anggota berperan penting, mulai dari riset dan pengembangan produk,
+                                budidaya TOGA, hingga pengelolaan kafe jamu. Semua bersatu untuk menghadirkan pengalaman terbaik bagi pelanggan
+                                sekaligus menjaga kelestarian tanaman obat keluarga.
+                            </p>
+                            <div className="grid grid-cols-2 py-8">
+                                <div className="text-start">
+                                    <div className="text-4xl font-bold text-primary">15</div>
+                                    <div className="text-xl">Anggota Tim</div>
                                 </div>
-                                <div className="text-center">
-                                    <div className="text-2xl font-bold text-primary">5+</div>
-                                    <div className="text-sm text-muted-foreground">Tahun Pengalaman</div>
+                                <div className="text-start">
+                                    <div className="text-4xl font-bold text-primary">10+</div>
+                                    <div className="text-xl">Inovasi Produk</div>
                                 </div>
                             </div>
                         </div>
                         <div className="relative">
-                            <img
-                                src="/professional-team-working-together.jpg"
-                                alt="Tim Profesional PPKO"
-                                className="w-full h-96 object-cover rounded-2xl shadow-lg"
+                            <Image
+                                src="/images/about_us/profilisasi_01.png"
+                                alt="Tim PPKO"
+                                width={600}
+                                height={600}
                             />
                         </div>
                     </div>

@@ -4,8 +4,8 @@ import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-    title: "Kontak Kami - PPKO",
-    description: "Hubungi kami untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk PPKO",
+    title: "Kontak Kami - Jamusari",
+    description: "Hubungi kami untuk pertanyaan, saran, atau informasi lebih lanjut tentang produk Jamusari",
 }
 
 export default function KontakLayout({

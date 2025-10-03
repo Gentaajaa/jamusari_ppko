@@ -1496,6 +1496,10 @@ svg.leaflet-zoom-animated {
     margin-top: calc(var(--spacing) * 16);
   }
 
+  .mt-18 {
+    margin-top: calc(var(--spacing) * 18);
+  }
+
   .mt-24 {
     margin-top: calc(var(--spacing) * 24);
   }
@@ -1892,6 +1896,10 @@ svg.leaflet-zoom-animated {
     justify-content: flex-end;
   }
 
+  .gap-0\.5 {
+    gap: calc(var(--spacing) * .5);
+  }
+
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
@@ -1930,6 +1938,10 @@ svg.leaflet-zoom-animated {
 
   .gap-18 {
     gap: calc(var(--spacing) * 18);
+  }
+
+  .gap-19 {
+    gap: calc(var(--spacing) * 19);
   }
 
   :where(.space-y-2 > :not(:last-child)) {
@@ -2102,10 +2114,6 @@ svg.leaflet-zoom-animated {
     border-radius: var(--radius-2xl);
   }
 
-  .rounded-4xl {
-    border-radius: var(--radius-4xl);
-  }
-
   .rounded-full {
     border-radius: 3.40282e38px;
   }
@@ -2142,6 +2150,14 @@ svg.leaflet-zoom-animated {
 
   .rounded-tr-4xl {
     border-top-right-radius: var(--radius-4xl);
+  }
+
+  .rounded-tr-lg {
+    border-top-right-radius: var(--radius);
+  }
+
+  .rounded-tr-xl {
+    border-top-right-radius: calc(var(--radius)  + 4px);
   }
 
   .rounded-bl-4xl {
@@ -2752,6 +2768,10 @@ svg.leaflet-zoom-animated {
     padding-inline: calc(var(--spacing) * 8);
   }
 
+  .px-20 {
+    padding-inline: calc(var(--spacing) * 20);
+  }
+
   .py-0\.5 {
     padding-block: calc(var(--spacing) * .5);
   }
@@ -2788,6 +2808,10 @@ svg.leaflet-zoom-animated {
     padding-block: calc(var(--spacing) * 16);
   }
 
+  .py-18 {
+    padding-block: calc(var(--spacing) * 18);
+  }
+
   .pt-2 {
     padding-top: calc(var(--spacing) * 2);
   }
@@ -2810,6 +2834,10 @@ svg.leaflet-zoom-animated {
 
   .text-center {
     text-align: center;
+  }
+
+  .text-end {
+    text-align: end;
   }
 
   .text-left {
@@ -3788,6 +3816,12 @@ svg.leaflet-zoom-animated {
   }
 
   @media (min-width: 64rem) {
+    .lg\:grid-cols-1 {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 64rem) {
     .lg\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -3826,6 +3860,12 @@ svg.leaflet-zoom-animated {
   @media (min-width: 64rem) {
     .lg\:px-8 {
       padding-inline: calc(var(--spacing) * 8);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:px-10 {
+      padding-inline: calc(var(--spacing) * 10);
     }
   }
 

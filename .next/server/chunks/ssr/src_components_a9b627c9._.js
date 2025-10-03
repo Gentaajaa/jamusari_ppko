@@ -350,163 +350,151 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const products = [
     {
         id: 1,
-        name: "Milky Turmeric",
-        description: "Minuman tradisional dengan kunyit segar dan asam jawa yang menyegarkan",
+        name: "Rosella Freshmilk",
+        description: "Perpaduan bunga rosella dengan susu full cream yang creamy dan menyehatkan.",
         price: "Rp 10.000",
-        category: "traditional",
+        category: "Milk Base",
         image: "/images/produk/rosella_freshmilk.png",
-        badge: "Best Seller",
         recipe: [
-            "200g kunyit segar, parut halus",
-            "100g asam jawa, ambil airnya",
-            "100g gula merah",
-            "1 liter air",
-            "Sejumput garam"
+            "Sari Rosella",
+            "Susu Full Cream",
+            "Es Batu",
+            "Susu Kental Manis"
         ],
         benefits: [
-            "Meningkatkan sistem kekebalan tubuh",
+            "Meningkatkan imun tubuh",
             "Membantu pencernaan",
-            "Anti-inflamasi alami",
-            "Detoksifikasi tubuh",
-            "Menjaga kesehatan kulit"
+            "Kaya antioksidan",
+            "Menyegarkan tubuh",
+            "Menjaga kesehatan tulang"
         ]
     },
     {
         id: 2,
         name: "Rosella Sparkling",
-        description: "Kombinasi beras dan kencur untuk stamina dan kesehatan tubuh",
+        description: "Kesegaran bunga rosella berpadu dengan soda yang ringan dan menyegarkan.",
         price: "Rp 9.000",
-        category: "traditional",
+        category: "Sparkling Base",
         image: "/images/produk/rosella_sparkling.png",
-        badge: "Popular",
         recipe: [
-            "100g beras putih, rendam 2 jam",
-            "50g kencur segar",
-            "100g gula merah",
-            "1 liter air",
-            "Daun pandan secukupnya"
+            "Sari Rosella",
+            "Air Soda",
+            "Es Batu",
+            "Sirup Gula"
         ],
         benefits: [
-            "Meningkatkan stamina dan energi",
-            "Memperbaiki nafsu makan",
-            "Melancarkan pencernaan",
-            "Mengurangi masuk angin",
-            "Menjaga kesehatan lambung"
+            "Kaya antioksidan",
+            "Meningkatkan imun",
+            "Menjaga kesehatan jantung",
+            "Menyegarkan tubuh",
+            "Mengurangi stress"
         ]
     },
     {
         id: 3,
         name: "Purple Sparkling",
-        description: "Campuran jahe hangat dengan rempah-rempah pilihan untuk menghangatkan tubuh",
+        description: "Kesegaran soda berpadu dengan sari bunga telang yang menenangkan.",
         price: "Rp 8.000",
-        category: "traditional",
+        category: "Sparkling Base",
         image: "/images/produk/purple_sparkling.png",
-        badge: "Best Seller",
         recipe: [
-            "100g jahe merah segar",
-            "50g kayu manis",
-            "25g cengkeh",
-            "100g gula aren",
-            "1 liter air"
+            "Sari Bunga Telang",
+            "Air Soda",
+            "Es Batu",
+            "Sirup Gula"
         ],
         benefits: [
-            "Menghangatkan tubuh",
-            "Meningkatkan metabolisme",
-            "Meredakan batuk dan pilek",
-            "Anti-oksidan tinggi",
-            "Mengurangi mual dan masuk angin"
+            "Meredakan stress",
+            "Kaya antioksidan",
+            "Menyehatkan pencernaan",
+            "Menyegarkan tubuh",
+            "Menjaga daya tahan"
         ]
     },
     {
         id: 4,
         name: "Rainbow Sparkling",
-        description: "Perpaduan jamu tradisional dengan konsep smoothie modern yang segar",
+        description: "Racikan rempah pilihan berpadu dengan soda dingin yang menyegarkan.",
         price: "Rp 8.000",
-        category: "modern",
+        category: "Sparkling Base",
         image: "/images/produk/rainbow_sparkling.png",
-        badge: "New",
         recipe: [
-            "100g bayam segar",
-            "50g daun katuk",
-            "25g jahe muda",
-            "100ml santan kelapa",
-            "50g madu murni",
-            "Es batu secukupnya"
+            "Ramuan Rainbow (Secang, Jahe, Cengkeh, Kapulaga dan Kayu Manis)",
+            "Air Soda",
+            "Es Batu",
+            "Sirup Gula"
         ],
         benefits: [
-            "Kaya akan zat besi dan folat",
-            "Meningkatkan produksi ASI",
-            "Detoksifikasi alami",
-            "Meningkatkan energi",
-            "Menjaga kesehatan pencernaan"
+            "Menyegarkan tubuh",
+            "Meningkatkan imun",
+            "Meredakan pegal",
+            "Melancarkan pernapasan",
+            "Kaya antioksidan"
         ]
     },
     {
         id: 5,
         name: "Lemon Butterfly",
-        description: "Temulawak berkualitas tinggi dengan madu asli untuk kesehatan liver",
+        description: "Lemon Butterfly, segarnya lemon berpadu dengan sari bunga telang yang menyejukkan.",
         price: "Rp 9.000",
-        category: "traditional",
+        category: "Sparkling Base",
         image: "/images/produk/lemon_butterfly.png",
-        badge: "",
         recipe: [
-            "150g temulawak segar, parut",
-            "100ml madu murni",
-            "1 liter air",
-            "Sejumput garam",
-            "Perasan jeruk nipis"
+            "Sari Telang",
+            "Air Dingin",
+            "Es Batu",
+            "Sirup Gula Tebu",
+            "Perasan Lemon"
         ],
         benefits: [
-            "Menjaga kesehatan liver",
-            "Meningkatkan nafsu makan",
-            "Anti-inflamasi",
-            "Meningkatkan daya tahan tubuh",
-            "Membantu pencernaan lemak"
+            "Menyegarkan Tubuh",
+            "Mengurangi Stress",
+            "Melancarkan pencernaan",
+            "Kaya Antioksidan",
+            "Menjaga Imun Tubuh"
         ]
     },
     {
         id: 6,
         name: "Rainbow Freshmilk",
-        description: "Inovasi jamu dengan sensasi sparkling yang menyegarkan",
+        description: "Rainbow Freshmilk, paduan susu creamy dengan rempah hangat yang menyegarkan.",
         price: "Rp 10.000",
-        category: "modern",
+        category: "Milk Base",
         image: "/images/produk/rainbow_freshmilk.png",
         badge: "Premium",
         recipe: [
-            "Ekstrak kunyit asam",
-            "Air soda premium",
-            "Madu organik",
-            "Perasan lemon segar",
-            "Mint leaves"
+            "Ramuan Rainbow (Secang, Jahe, Cengkeh, Kapulaga dan Kayu Manis)",
+            "Susu Kental Manis",
+            "Susu Full Cream",
+            "Es Batu"
         ],
         benefits: [
-            "Menyegarkan dan menghidrasi",
-            "Rendah kalori",
-            "Kaya antioksidan",
-            "Meningkatkan metabolisme",
-            "Memberikan sensasi unik"
+            "Menghangatkan Tubuh",
+            "Meningkatkan Imun",
+            "Menyehatkan Pencernaan",
+            "Meredakan Pegal",
+            "Menjaga Stamina"
         ]
     },
     {
         id: 7,
         name: "Purple Freshmilk",
-        description: "Ekstrak sirih merah untuk kesehatan reproduksi dan antioksidan",
+        description: "Perpaduan sari bunga telang dengan susu full cream yang lembut dan menenangkan.",
         price: "Rp 10.000",
-        category: "traditional",
+        category: "Milk Base",
         image: "/images/produk/purple_freshmilk.png",
-        badge: "",
         recipe: [
-            "10 lembar daun sirih merah",
-            "50g gula aren",
-            "1 liter air",
-            "Sejumput garam"
+            "Sari Telang",
+            "Susu Full Cream",
+            "Es Batu",
+            "Susu Kental "
         ],
         benefits: [
-            "Menjaga kesehatan reproduksi wanita",
-            "Anti-bakteri dan anti-jamur",
-            "Kaya antioksidan",
-            "Meningkatkan daya tahan tubuh",
-            "Menjaga kesehatan mulut"
+            "Meredakan Stress",
+            "Menjaga Kesehatan Tulang",
+            "Meningkatkan Imun",
+            "Kaya Antioksidan",
+            "Menyehatkan Pencernaan"
         ]
     }
 ];
@@ -537,7 +525,7 @@ function ProductGrid() {
                                                         className: "w-full h-60 object-cover rounded-t-xl"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 160,
+                                                        lineNumber: 171,
                                                         columnNumber: 45
                                                     }, this),
                                                     product.badge && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
@@ -545,13 +533,13 @@ function ProductGrid() {
                                                         children: product.badge
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 168,
+                                                        lineNumber: 179,
                                                         columnNumber: 49
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                lineNumber: 159,
+                                                lineNumber: 170,
                                                 columnNumber: 41
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -562,7 +550,7 @@ function ProductGrid() {
                                                         children: product.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 185,
+                                                        lineNumber: 196,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -570,7 +558,7 @@ function ProductGrid() {
                                                         children: product.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 186,
+                                                        lineNumber: 197,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -581,7 +569,7 @@ function ProductGrid() {
                                                                 children: product.price
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                lineNumber: 188,
+                                                                lineNumber: 199,
                                                                 columnNumber: 49
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -589,35 +577,35 @@ function ProductGrid() {
                                                                 children: product.category === "traditional" ? "Tradisional" : product.category === "modern" ? "Modern" : product.category === "seasonal" ? "Musiman" : "Premium"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                lineNumber: 189,
+                                                                lineNumber: 200,
                                                                 columnNumber: 49
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 187,
+                                                        lineNumber: 198,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                lineNumber: 184,
+                                                lineNumber: 195,
                                                 columnNumber: 41
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 169,
                                         columnNumber: 37
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/section/product-grid.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 168,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                lineNumber: 156,
+                                lineNumber: 167,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DialogContent"], {
@@ -629,12 +617,12 @@ function ProductGrid() {
                                             children: product.name
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/product-grid.tsx",
-                                            lineNumber: 206,
+                                            lineNumber: 217,
                                             columnNumber: 37
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                        lineNumber: 205,
+                                        lineNumber: 216,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -653,12 +641,12 @@ function ProductGrid() {
                                                             className: "w-full h-64 object-cover"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/section/product-grid.tsx",
-                                                            lineNumber: 213,
+                                                            lineNumber: 224,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 212,
+                                                        lineNumber: 223,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -669,7 +657,7 @@ function ProductGrid() {
                                                                 children: "Deskripsi"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                lineNumber: 222,
+                                                                lineNumber: 233,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -677,13 +665,13 @@ function ProductGrid() {
                                                                 children: product.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                lineNumber: 225,
+                                                                lineNumber: 236,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 221,
+                                                        lineNumber: 232,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -696,7 +684,7 @@ function ProductGrid() {
                                                                     children: product.badge
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                    lineNumber: 231,
+                                                                    lineNumber: 242,
                                                                     columnNumber: 53
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -704,24 +692,24 @@ function ProductGrid() {
                                                                     children: product.price
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                    lineNumber: 235,
+                                                                    lineNumber: 246,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/section/product-grid.tsx",
-                                                            lineNumber: 229,
+                                                            lineNumber: 240,
                                                             columnNumber: 45
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 228,
+                                                        lineNumber: 239,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                lineNumber: 211,
+                                                lineNumber: 222,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -735,7 +723,7 @@ function ProductGrid() {
                                                                 children: "Resep Tradisional"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                lineNumber: 244,
+                                                                lineNumber: 255,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -748,25 +736,25 @@ function ProductGrid() {
                                                                                 children: "•"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                                lineNumber: 250,
+                                                                                lineNumber: 261,
                                                                                 columnNumber: 57
                                                                             }, this),
                                                                             ingredient
                                                                         ]
                                                                     }, index, true, {
                                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                        lineNumber: 249,
+                                                                        lineNumber: 260,
                                                                         columnNumber: 53
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                lineNumber: 247,
+                                                                lineNumber: 258,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 243,
+                                                        lineNumber: 254,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -777,7 +765,7 @@ function ProductGrid() {
                                                                 children: "Manfaat Kesehatan"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                lineNumber: 259,
+                                                                lineNumber: 270,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -790,64 +778,64 @@ function ProductGrid() {
                                                                                 children: "✓"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                                lineNumber: 265,
+                                                                                lineNumber: 276,
                                                                                 columnNumber: 57
                                                                             }, this),
                                                                             benefit
                                                                         ]
                                                                     }, index, true, {
                                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                        lineNumber: 264,
+                                                                        lineNumber: 275,
                                                                         columnNumber: 53
                                                                     }, this))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                                lineNumber: 262,
+                                                                lineNumber: 273,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                                        lineNumber: 258,
+                                                        lineNumber: 269,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                                lineNumber: 241,
+                                                lineNumber: 252,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/section/product-grid.tsx",
-                                        lineNumber: 209,
+                                        lineNumber: 220,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/section/product-grid.tsx",
-                                lineNumber: 204,
+                                lineNumber: 215,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, product.id, true, {
                         fileName: "[project]/src/components/section/product-grid.tsx",
-                        lineNumber: 155,
+                        lineNumber: 166,
                         columnNumber: 25
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/section/product-grid.tsx",
-                lineNumber: 153,
+                lineNumber: 164,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/section/product-grid.tsx",
-            lineNumber: 152,
+            lineNumber: 163,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/section/product-grid.tsx",
-        lineNumber: 151,
+        lineNumber: 162,
         columnNumber: 9
     }, this);
 }
@@ -876,11 +864,11 @@ const categories = [
         name: "Best Seller"
     },
     {
-        id: "modern",
+        id: "Milk Base",
         name: "Milk base"
     },
     {
-        id: "seasonal",
+        id: "Sparkling Base",
         name: "Sparkling Base"
     }
 ];

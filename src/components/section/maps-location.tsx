@@ -29,7 +29,7 @@ const Popup = dynamic(
 export default function MapsLocation() {
     const handleOpenGoogleMaps = () => {
         // Placeholder URL - Masukin url kafenya nanti, untuk ngarahin langsung ke GMaps
-        window.open("https://maps.google.com/?q=Jakarta,Indonesia", "_blank")
+        window.open("https://maps.app.goo.gl/68Z2tqayWmD5xhVL7", "_blank")
     }
 
     const customMarker = useMemo(() => {
@@ -83,7 +83,7 @@ export default function MapsLocation() {
                         <div className="w-full h-[500px] rounded-2xl shadow-lg overflow-hidden bg-gray-100 border border-gray-200">
                             {/* Placeholder Map - Replace with actual embed when ready */}
                             <MapContainer
-                                center={[-6.2088, 106.8456]} // Jakarta sebagai contoh
+                                center={[-7.8860433, 110.3098462]} // Jakarta sebagai contoh
                                 zoom={15}
                                 className="w-full h-full"
                                 scrollWheelZoom={true}
@@ -95,11 +95,11 @@ export default function MapsLocation() {
 
                                 {/* Custom Marker pakai Lucide-react */}
                                 <Marker
-                                    position={[-6.2088, 106.8456]}
+                                    position={[-7.8860433, 110.3098462]}
                                     icon={customMarker}
                                 >
                                     <Popup>
-                                        <b>PPKO Store</b> <br /> Jl. Contoh Alamat No. 123
+                                        <b>Jamusari</b> <br /> Kadisono, Guwosari, Kec. Pajangan, Kabupaten Bantul, Daerah Istimewa Yogyakarta
                                     </Popup>
                                 </Marker>
                             </MapContainer>
@@ -110,25 +110,25 @@ export default function MapsLocation() {
                             <div className="p-4 bg-gray-50 rounded-xl">
                                 <h4 className="font-semibold text-[#159c4f] mb-2">Alamat</h4>
                                 <p className="text-sm text-gray-600">
-                                    Jl. Contoh Alamat No. 123
+                                    Kadisono, Guwosari, Kec. Pajangan
                                     <br />
-                                    Jakarta Selatan, DKI Jakarta
+                                    Kabupaten bantul, Daerah Istemewa Yogyakarta
                                 </p>
                             </div>
                             <div className="p-4 bg-gray-50 rounded-xl">
                                 <h4 className="font-semibold text-[#159c4f] mb-2">Jam Buka</h4>
                                 <p className="text-sm text-gray-600">
-                                    Senin - Sabtu: 08:00 - 20:00
+                                    Senin - Sabtu: 16:00 - 21.00
                                     <br />
-                                    Minggu: 09:00 - 18:00
+                                    Minggu: 15:00 - 22:00
                                 </p>
                             </div>
                             <div className="p-4 bg-gray-50 rounded-xl">
                                 <h4 className="font-semibold text-[#159c4f] mb-2">Kontak</h4>
                                 <p className="text-sm text-gray-600">
-                                    Telepon: (021) 1234-5678
+                                    WhatsApp: (+62) 812-1163-5636
                                     <br />
-                                    WhatsApp: +62 812-3456-7890
+                                    Instagram: @ppko.hmifuii
                                 </p>
                             </div>
                         </div>

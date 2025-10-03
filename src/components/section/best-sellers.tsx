@@ -4,29 +4,27 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import Image from "next/image"
 import { useState } from "react"
-import { Quote } from "lucide-react"
 
 
 const bestSellers = [
     {
         id: 1,
-        name: "Milky Turmeric",
-        description: "Milky Turmeric, racikan creamy susu dingin dengan segarnya kunyit dan asam jawa.",
+        name: "Rosella Freshmilk",
+        description: "Perpaduan bunga rosella dengan susu full cream yang creamy dan menyehatkan.",
         price: "Rp 10.000",
-        image: "/images/produk/milky_turmeric.png",
+        image: "/images/produk/rosella_freshmilk.png",
         recipe: [
-            "Sari Kunyit (30 ml)",
-            "Sari Asam Jawa (30 ml)",
-            "Susu Full Cream (± 75 ml)",
-            "Es Batu (1 Gelas Penuh)",
-            "Sirup Gula (30 ml)",
+            "Sari Rosella",
+            "Susu Full Cream",
+            "Es Batu",
+            "Susu Kental Manis",
         ],
         benefits: [
-            "Meningkatkan Imun Tubuh",
-            "Meredakan Peradangan",
-            "Menyehatkan Pencernaan",
-            "Menyegarkan Tubuh",
-            "Mengandung Antioksidan",
+            "Meningkatkan imun tubuh",
+            "Membantu pencernaan",
+            "Kaya antioksidan",
+            "Menyegarkan tubuh",
+            "Menjaga kesehatan tulang",
         ],
     },
     {
@@ -36,11 +34,11 @@ const bestSellers = [
         price: "Rp 9.000",
         image: "/images/produk/lemon_butterfly.png",
         recipe: [
-            "Sari Telang (30 ml)",
-            "Air Dingin (± 75 ml)",
-            "Es Batu (1 Gelas Penuh)",
-            "Sirup Gula Tebu (30 ml)",
-            "Perasan Lemon (2 sdt)",
+            "Sari Telang",
+            "Air Dingin",
+            "Es Batu",
+            "Sirup Gula Tebu",
+            "Perasan Lemon",
         ],
         benefits: [
             "Menyegarkan Tubuh",
@@ -57,18 +55,17 @@ const bestSellers = [
         price: "Rp 10.000",
         image: "/images/produk/rainbow_freshmilk.png",
         recipe: [
-            "Susu Kental Manis (30 ml)",
-            "Ramuan Rainbow (30 ml: Secang, Jahe, Cengkeh, Kapulaga, dan Kayu Manis)",
-            "Susu Full Cream (75 ml)",
-            "Es Batu (1 Gelas Penuh)",
-
+            "Ramuan Rainbow (Secang, Jahe, Cengkeh, Kapulaga dan Kayu Manis)",
+            "Susu Kental Manis",
+            "Susu Full Cream",
+            "Es Batu",
         ],
         benefits: [
-            "Menghangatkan tubuh",
-            "Melancarkan Pernapasan",
-            "Meredakan Pegal",
-            "Meningkatkan Imun Tubuh",
+            "Menghangatkan Tubuh",
+            "Meningkatkan Imun",
             "Menyehatkan Pencernaan",
+            "Meredakan Pegal",
+            "Menjaga Stamina",
         ],
     },
 ]

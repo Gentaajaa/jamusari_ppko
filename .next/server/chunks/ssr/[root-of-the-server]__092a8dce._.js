@@ -304,23 +304,22 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 const bestSellers = [
     {
         id: 1,
-        name: "Milky Turmeric",
-        description: "Milky Turmeric, racikan creamy susu dingin dengan segarnya kunyit dan asam jawa.",
+        name: "Rosella Freshmilk",
+        description: "Perpaduan bunga rosella dengan susu full cream yang creamy dan menyehatkan.",
         price: "Rp 10.000",
-        image: "/images/produk/milky_turmeric.png",
+        image: "/images/produk/rosella_freshmilk.png",
         recipe: [
-            "Sari Kunyit (30 ml)",
-            "Sari Asam Jawa (30 ml)",
-            "Susu Full Cream (± 75 ml)",
-            "Es Batu (1 Gelas Penuh)",
-            "Sirup Gula (30 ml)"
+            "Sari Rosella",
+            "Susu Full Cream",
+            "Es Batu",
+            "Susu Kental Manis"
         ],
         benefits: [
-            "Meningkatkan Imun Tubuh",
-            "Meredakan Peradangan",
-            "Menyehatkan Pencernaan",
-            "Menyegarkan Tubuh",
-            "Mengandung Antioksidan"
+            "Meningkatkan imun tubuh",
+            "Membantu pencernaan",
+            "Kaya antioksidan",
+            "Menyegarkan tubuh",
+            "Menjaga kesehatan tulang"
         ]
     },
     {
@@ -330,11 +329,11 @@ const bestSellers = [
         price: "Rp 9.000",
         image: "/images/produk/lemon_butterfly.png",
         recipe: [
-            "Sari Telang (30 ml)",
-            "Air Dingin (± 75 ml)",
-            "Es Batu (1 Gelas Penuh)",
-            "Sirup Gula Tebu (30 ml)",
-            "Perasan Lemon (2 sdt)"
+            "Sari Telang",
+            "Air Dingin",
+            "Es Batu",
+            "Sirup Gula Tebu",
+            "Perasan Lemon"
         ],
         benefits: [
             "Menyegarkan Tubuh",
@@ -351,17 +350,17 @@ const bestSellers = [
         price: "Rp 10.000",
         image: "/images/produk/rainbow_freshmilk.png",
         recipe: [
-            "Susu Kental Manis (30 ml)",
-            "Ramuan Rainbow (30 ml: Secang, Jahe, Cengkeh, Kapulaga, dan Kayu Manis)",
-            "Susu Full Cream (75 ml)",
-            "Es Batu (1 Gelas Penuh)"
+            "Ramuan Rainbow (Secang, Jahe, Cengkeh, Kapulaga dan Kayu Manis)",
+            "Susu Kental Manis",
+            "Susu Full Cream",
+            "Es Batu"
         ],
         benefits: [
-            "Menghangatkan tubuh",
-            "Melancarkan Pernapasan",
+            "Menghangatkan Tubuh",
+            "Meningkatkan Imun",
+            "Menyehatkan Pencernaan",
             "Meredakan Pegal",
-            "Meningkatkan Imun Tubuh",
-            "Menyehatkan Pencernaan"
+            "Menjaga Stamina"
         ]
     }
 ];
@@ -383,14 +382,14 @@ function BestSellers() {
                                     children: "Produk"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 81,
                                     columnNumber: 25
                                 }, this),
                                 " Best Seller"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                            lineNumber: 83,
+                            lineNumber: 80,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -398,13 +397,13 @@ function BestSellers() {
                             children: "Nikmati koleksi jamu kekinian terpopuler dari Jamusari yang diracik dengan bahan alami pilihan, menghadirkan cita rasa tradisional dengan sentuhan modern."
                         }, void 0, false, {
                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                            lineNumber: 86,
+                            lineNumber: 83,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                    lineNumber: 82,
+                    lineNumber: 79,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -428,12 +427,12 @@ function BestSellers() {
                                                         className: "w-full h-48 object-cover"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                        lineNumber: 99,
+                                                        lineNumber: 96,
                                                         columnNumber: 45
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 95,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -441,7 +440,7 @@ function BestSellers() {
                                                     children: product.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                    lineNumber: 107,
+                                                    lineNumber: 104,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -449,7 +448,7 @@ function BestSellers() {
                                                     children: product.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                    lineNumber: 108,
+                                                    lineNumber: 105,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -460,7 +459,7 @@ function BestSellers() {
                                                             children: product.price
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                            lineNumber: 110,
+                                                            lineNumber: 107,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -468,29 +467,29 @@ function BestSellers() {
                                                             children: "Best Seller"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                            lineNumber: 111,
+                                                            lineNumber: 108,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 106,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 94,
                                             columnNumber: 37
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/section/best-sellers.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 93,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 92,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$dialog$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DialogContent"], {
@@ -502,12 +501,12 @@ function BestSellers() {
                                                 children: product.name
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                lineNumber: 119,
+                                                lineNumber: 116,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 115,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -526,12 +525,12 @@ function BestSellers() {
                                                                 className: "w-full h-64 object-cover"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                lineNumber: 126,
+                                                                lineNumber: 123,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 122,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -542,7 +541,7 @@ function BestSellers() {
                                                                     children: "Deskripsi"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                    lineNumber: 135,
+                                                                    lineNumber: 132,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -550,13 +549,13 @@ function BestSellers() {
                                                                     children: product.description
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                    lineNumber: 138,
+                                                                    lineNumber: 135,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                            lineNumber: 134,
+                                                            lineNumber: 131,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -569,7 +568,7 @@ function BestSellers() {
                                                                         children: "Best Seller"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                        lineNumber: 144,
+                                                                        lineNumber: 141,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -577,24 +576,24 @@ function BestSellers() {
                                                                         children: product.price
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                        lineNumber: 147,
+                                                                        lineNumber: 144,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                lineNumber: 142,
+                                                                lineNumber: 139,
                                                                 columnNumber: 45
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                            lineNumber: 141,
+                                                            lineNumber: 138,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 121,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -608,7 +607,7 @@ function BestSellers() {
                                                                     children: "Resep Tradisional"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                    lineNumber: 156,
+                                                                    lineNumber: 153,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -621,25 +620,25 @@ function BestSellers() {
                                                                                     children: "•"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                                    lineNumber: 162,
+                                                                                    lineNumber: 159,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 ingredient
                                                                             ]
                                                                         }, index, true, {
                                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                            lineNumber: 161,
+                                                                            lineNumber: 158,
                                                                             columnNumber: 53
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                    lineNumber: 159,
+                                                                    lineNumber: 156,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                            lineNumber: 155,
+                                                            lineNumber: 152,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -650,7 +649,7 @@ function BestSellers() {
                                                                     children: "Manfaat Kesehatan"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                    lineNumber: 171,
+                                                                    lineNumber: 168,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -663,65 +662,65 @@ function BestSellers() {
                                                                                     children: "✓"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                                    lineNumber: 177,
+                                                                                    lineNumber: 174,
                                                                                     columnNumber: 57
                                                                                 }, this),
                                                                                 benefit
                                                                             ]
                                                                         }, index, true, {
                                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                            lineNumber: 176,
+                                                                            lineNumber: 173,
                                                                             columnNumber: 53
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                                    lineNumber: 174,
+                                                                    lineNumber: 171,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                            lineNumber: 170,
+                                                            lineNumber: 167,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                                    lineNumber: 153,
+                                                    lineNumber: 150,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 119,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 114,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, product.id, true, {
                             fileName: "[project]/src/components/section/best-sellers.tsx",
-                            lineNumber: 94,
+                            lineNumber: 91,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/section/best-sellers.tsx",
-                    lineNumber: 92,
+                    lineNumber: 89,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/section/best-sellers.tsx",
-            lineNumber: 81,
+            lineNumber: 78,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/section/best-sellers.tsx",
-        lineNumber: 80,
+        lineNumber: 77,
         columnNumber: 9
     }, this);
 }
@@ -810,7 +809,7 @@ const Popup = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2
 function MapsLocation() {
     const handleOpenGoogleMaps = ()=>{
         // Placeholder URL - Masukin url kafenya nanti, untuk ngarahin langsung ke GMaps
-        window.open("https://maps.google.com/?q=Jakarta,Indonesia", "_blank");
+        window.open("https://maps.app.goo.gl/68Z2tqayWmD5xhVL7", "_blank");
     };
     const customMarker = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
         if ("TURBOPACK compile-time truthy", 1) return null;
@@ -885,8 +884,8 @@ function MapsLocation() {
                                 className: "w-full h-[500px] rounded-2xl shadow-lg overflow-hidden bg-gray-100 border border-gray-200",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(MapContainer, {
                                     center: [
-                                        -6.2088,
-                                        106.8456
+                                        -7.8860433,
+                                        110.3098462
                                     ],
                                     zoom: 15,
                                     className: "w-full h-full",
@@ -902,14 +901,14 @@ function MapsLocation() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Marker, {
                                             position: [
-                                                -6.2088,
-                                                106.8456
+                                                -7.8860433,
+                                                110.3098462
                                             ],
                                             icon: customMarker,
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Popup, {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
-                                                        children: "PPKO Store"
+                                                        children: "Jamusari"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/maps-location.tsx",
                                                         lineNumber: 102,
@@ -919,9 +918,9 @@ function MapsLocation() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/components/section/maps-location.tsx",
                                                         lineNumber: 102,
-                                                        columnNumber: 59
+                                                        columnNumber: 57
                                                     }, this),
-                                                    " Jl. Contoh Alamat No. 123"
+                                                    " Kadisono, Guwosari, Kec. Pajangan, Kabupaten Bantul, Daerah Istimewa Yogyakarta"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/maps-location.tsx",
@@ -961,13 +960,13 @@ function MapsLocation() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-sm text-gray-600",
                                                 children: [
-                                                    "Jl. Contoh Alamat No. 123",
+                                                    "Kadisono, Guwosari, Kec. Pajangan",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/components/section/maps-location.tsx",
                                                         lineNumber: 114,
                                                         columnNumber: 37
                                                     }, this),
-                                                    "Jakarta Selatan, DKI Jakarta"
+                                                    "Kabupaten bantul, Daerah Istemewa Yogyakarta"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/maps-location.tsx",
@@ -994,13 +993,13 @@ function MapsLocation() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-sm text-gray-600",
                                                 children: [
-                                                    "Senin - Sabtu: 08:00 - 20:00",
+                                                    "Senin - Sabtu: 16:00 - 21.00",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/components/section/maps-location.tsx",
                                                         lineNumber: 122,
                                                         columnNumber: 37
                                                     }, this),
-                                                    "Minggu: 09:00 - 18:00"
+                                                    "Minggu: 15:00 - 22:00"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/maps-location.tsx",
@@ -1027,13 +1026,13 @@ function MapsLocation() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "text-sm text-gray-600",
                                                 children: [
-                                                    "Telepon: (021) 1234-5678",
+                                                    "WhatsApp: (+62) 812-1163-5636",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/components/section/maps-location.tsx",
                                                         lineNumber: 130,
                                                         columnNumber: 37
                                                     }, this),
-                                                    "WhatsApp: +62 812-3456-7890"
+                                                    "Instagram: @ppko.hmifuii"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/maps-location.tsx",

@@ -14,6 +14,8 @@ __turbopack_context__.s([
     ()=>PageHero
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)"); //Gunakan Import Ini Jika menggunakan Gambar
+;
 ;
 function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -28,26 +30,26 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                         className: "w-full h-full object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 14,
+                        lineNumber: 17,
                         columnNumber: 21
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "w-full h-full bg-gradient-to-br from-primary/20 via-primary/10 to-secondary/20"
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 16,
+                        lineNumber: 19,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-black/40"
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 18,
+                        lineNumber: 21,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/section/page-hero.tsx",
-                lineNumber: 12,
+                lineNumber: 15,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -65,7 +67,7 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                                         children: title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/section/page-hero.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 29,
                                         columnNumber: 29
                                     }, this),
                                     subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -73,13 +75,13 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                                         children: subtitle
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/section/page-hero.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 30,
                                         columnNumber: 42
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/section/page-hero.tsx",
-                                lineNumber: 25,
+                                lineNumber: 28,
                                 columnNumber: 25
                             }, this),
                             supportingImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -87,47 +89,49 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             src: supportingImage || "/placeholder.svg",
                                             alt: "Supporting visual",
-                                            className: "w-full max-w-md h-auto object-cover rounded-2xl shadow-2xl"
+                                            className: "object-cover shadow-2xl",
+                                            width: 800,
+                                            height: 800
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/page-hero.tsx",
-                                            lineNumber: 34,
+                                            lineNumber: 37,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/page-hero.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 44,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/section/page-hero.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 36,
                                     columnNumber: 33
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/section/page-hero.tsx",
-                                lineNumber: 32,
+                                lineNumber: 35,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 23,
+                        lineNumber: 26,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/section/page-hero.tsx",
-                    lineNumber: 22,
+                    lineNumber: 25,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/section/page-hero.tsx",
-                lineNumber: 21,
+                lineNumber: 24,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -144,23 +148,23 @@ function PageHero({ title, subtitle, backgroundImage, supportingImage }) {
                         d: "M19 14l-7 7m0 0l-7-7m7 7V3"
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/page-hero.tsx",
-                        lineNumber: 50,
+                        lineNumber: 55,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/section/page-hero.tsx",
-                    lineNumber: 49,
+                    lineNumber: 54,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/section/page-hero.tsx",
-                lineNumber: 48,
+                lineNumber: 53,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/section/page-hero.tsx",
-        lineNumber: 10,
+        lineNumber: 13,
         columnNumber: 9
     }, this);
 }
@@ -174,6 +178,8 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$page$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/section/page-hero.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)"); //Gunakan Import Ini Jika menggunakan Gambar
+;
 ;
 ;
 function TentangKamiPage() {
@@ -183,11 +189,10 @@ function TentangKamiPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$page$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 title: "Tentang Kami",
                 subtitle: "Mengenal lebih dekat tim PPKO dan perjalanan kami dalam mengembangkan program deJamuanz",
-                backgroundImage: "/traditional-indonesian-herbs-and-spices-background.jpg",
-                supportingImage: "/team-working-together-in-modern-cafe.jpg"
+                backgroundImage: "/images/hero_aboutus.png"
             }, void 0, false, {
                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                lineNumber: 6,
+                lineNumber: 8,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -195,81 +200,63 @@ function TentangKamiPage() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "space-y-6",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-3xl md:text-4xl font-bold text-balance",
-                                        children: [
-                                            "Perjalanan ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-primary",
-                                                children: "Jamusari"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                lineNumber: 18,
-                                                columnNumber: 44
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-lg text-muted-foreground leading-relaxed",
-                                        children: "Jamusari lahir dari semangat mahasiswa HMIF UII bersama masyarakat Desa Guwosari untuk mengembangkan potensi Tanaman Obat Keluarga (TOGA). Berawal dari ide kafe jamu modern berbasis konservasi, Jamusari menghadirkan inovasi jamu dengan sentuhan kekinian."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-lg text-muted-foreground leading-relaxed",
-                                        children: "Jamusari hadir sebagai wujud nyata dari komitmen kami untuk menciptakan ruang yang nyaman bagi masyarakat untuk menikmati jamu dengan cara yang modern dan menyenangkan."
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                        lineNumber: 24,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                lineNumber: 16,
-                                columnNumber: 25
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/modern-jamu-cafe-interior.jpg",
-                                    alt: "Suasana Cafe deJamuanz",
-                                    className: "w-full h-96 object-cover rounded-2xl shadow-lg"
+                        className: "grid lg:grid-cols-1 gap-12 items-center max-w-6xl mx-auto",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "space-y-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-3xl md:text-4xl font-bold text-balance",
+                                    children: [
+                                        "Perjalanan ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-primary",
+                                            children: "Jamusari"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/tentang-kami/page.tsx",
+                                            lineNumber: 19,
+                                            columnNumber: 44
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/tentang-kami/page.tsx",
+                                    lineNumber: 18,
+                                    columnNumber: 29
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-lg text-muted-foreground leading-relaxed",
+                                    children: "Jamusari lahir dari semangat mahasiswa HMIF UII bersama masyarakat Desa Guwosari untuk mengembangkan potensi Tanaman Obat Keluarga (TOGA). Berawal dari ide kafe jamu modern berbasis konservasi, Jamusari menghadirkan inovasi jamu dengan sentuhan kekinian."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 21,
+                                    columnNumber: 29
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-lg text-muted-foreground leading-relaxed",
+                                    children: "Jamusari hadir sebagai wujud nyata dari komitmen kami untuk menciptakan ruang yang nyaman bagi masyarakat untuk menikmati jamu dengan cara yang modern dan menyenangkan."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/tentang-kami/page.tsx",
+                                    lineNumber: 25,
                                     columnNumber: 29
                                 }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                lineNumber: 29,
-                                columnNumber: 25
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/tentang-kami/page.tsx",
+                            lineNumber: 17,
+                            columnNumber: 25
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/tentang-kami/page.tsx",
-                    lineNumber: 14,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                lineNumber: 13,
+                lineNumber: 14,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -280,19 +267,20 @@ function TentangKamiPage() {
                         className: "grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative order-2 lg:order-1",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/traditional-indonesian-herbs-and-spices.jpg",
-                                    alt: "Bahan-bahan Jamu Tradisional",
-                                    className: "w-full h-96 object-cover rounded-2xl shadow-lg"
+                                className: "relative",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/images/about_us/profilisasi_02.png",
+                                    alt: "Visi Misi",
+                                    width: 600,
+                                    height: 600
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 38,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                lineNumber: 43,
+                                lineNumber: 37,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -307,13 +295,13 @@ function TentangKamiPage() {
                                                 children: "Misi"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                lineNumber: 52,
+                                                lineNumber: 47,
                                                 columnNumber: 40
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                        lineNumber: 51,
+                                        lineNumber: 46,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -326,21 +314,21 @@ function TentangKamiPage() {
                                                         children: "Visi"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                        lineNumber: 56,
+                                                        lineNumber: 51,
                                                         columnNumber: 37
                                                     }, this),
-                                                    "Menciptakan model pemberdayaan masyarakat desa yang berkelanjutan melalui integrasi kearifan lokal, inovasi teknologi, dan kewirausahaan sosial berbasis konservasi alam dengan mewujudkan Desa Guwosari sebagai desa mandiri yang mampu mengoptimalkan potensi alamnya untuk kesejahteraan masyarakat sekaligus melestarikan warisan budaya tanaman obat keluarga bagi generasi mendatang.",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-lg text-muted-foreground leading-relaxed"
+                                                        className: "text-lg text-muted-foreground leading-relaxed",
+                                                        children: "Menciptakan model pemberdayaan masyarakat desa yang berkelanjutan melalui integrasi kearifan lokal, inovasi teknologi, dan kewirausahaan sosial berbasis konservasi alam dengan mewujudkan Desa Guwosari sebagai desa mandiri yang mampu mengoptimalkan potensi alamnya untuk kesejahteraan masyarakat sekaligus melestarikan warisan budaya tanaman obat keluarga bagi generasi mendatang."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 52,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                lineNumber: 55,
+                                                lineNumber: 50,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -350,7 +338,7 @@ function TentangKamiPage() {
                                                         children: "Misi"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                        lineNumber: 64,
+                                                        lineNumber: 60,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -358,41 +346,41 @@ function TentangKamiPage() {
                                                         children: "Mengoptimalkan 89,5% lahan desa untuk budidaya TOGA berkelanjutan, menghadirkan Kafe JAMUAN sebagai pusat edukasi dan konservasi, mengembangkan produk jamu modern dengan branding menarik, membangun sistem pemasaran digital, serta memberdayakan masyarakat melalui kelompok mandiri dengan pendampingan berkelanjutan."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                        lineNumber: 65,
+                                                        lineNumber: 61,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                lineNumber: 63,
+                                                lineNumber: 59,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 49,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                lineNumber: 50,
+                                lineNumber: 45,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                        lineNumber: 42,
+                        lineNumber: 36,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/tentang-kami/page.tsx",
-                    lineNumber: 41,
+                    lineNumber: 35,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                lineNumber: 40,
+                lineNumber: 34,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -414,124 +402,133 @@ function TentangKamiPage() {
                                                 children: "Kami"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                lineNumber: 81,
+                                                lineNumber: 77,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                        lineNumber: 80,
+                                        lineNumber: 76,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-lg text-muted-foreground leading-relaxed",
-                                        children: "Tim PPKO terdiri dari para ahli yang berpengalaman dalam bidang kuliner, bisnis, dan teknologi. Kami berkomitmen untuk menghadirkan inovasi terbaik dalam setiap produk dan layanan yang kami tawarkan."
+                                        children: "Jamusari digerakkan oleh kolaborasi antara mahasiswa HMIF UII, Kelompok Wanita Tani, dan masyarakat Desa Guwosari. Kami percaya bahwa jamu bukan hanya warisan budaya, tetapi juga peluang untuk inovasi dan pemberdayaan."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 79,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-lg text-muted-foreground leading-relaxed",
+                                        children: "Dengan semangat kebersamaan, tim kami meracik jamu tradisional menjadi minuman modern yang sehat, lezat, dan menarik bagi semua generasi. Setiap anggota berperan penting, mulai dari riset dan pengembangan produk, budidaya TOGA, hingga pengelolaan kafe jamu. Semua bersatu untuk menghadirkan pengalaman terbaik bagi pelanggan sekaligus menjaga kelestarian tanaman obat keluarga."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/tentang-kami/page.tsx",
+                                        lineNumber: 84,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "grid grid-cols-2 gap-4",
+                                        className: "grid grid-cols-2 py-8",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-center",
+                                                className: "text-start",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "text-2xl font-bold text-primary",
-                                                        children: "15+"
+                                                        className: "text-4xl font-bold text-primary",
+                                                        children: "15"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                        lineNumber: 89,
+                                                        lineNumber: 92,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "text-sm text-muted-foreground",
-                                                        children: "Tim Ahli"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                        lineNumber: 90,
-                                                        columnNumber: 37
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                lineNumber: 88,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "text-center",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "text-2xl font-bold text-primary",
-                                                        children: "5+"
+                                                        className: "text-xl",
+                                                        children: "Anggota Tim"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
                                                         lineNumber: 93,
                                                         columnNumber: 37
-                                                    }, this),
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/tentang-kami/page.tsx",
+                                                lineNumber: 91,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-start",
+                                                children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "text-sm text-muted-foreground",
-                                                        children: "Tahun Pengalaman"
+                                                        className: "text-4xl font-bold text-primary",
+                                                        children: "10+"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                        lineNumber: 94,
+                                                        lineNumber: 96,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "text-xl",
+                                                        children: "Inovasi Produk"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/tentang-kami/page.tsx",
+                                                        lineNumber: 97,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                                lineNumber: 92,
+                                                lineNumber: 95,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 90,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                lineNumber: 79,
+                                lineNumber: 75,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/professional-team-working-together.jpg",
-                                    alt: "Tim Profesional PPKO",
-                                    className: "w-full h-96 object-cover rounded-2xl shadow-lg"
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/images/about_us/profilisasi_01.png",
+                                    alt: "Tim PPKO",
+                                    width: 600,
+                                    height: 600
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 102,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                                lineNumber: 98,
+                                lineNumber: 101,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/tentang-kami/page.tsx",
-                        lineNumber: 78,
+                        lineNumber: 74,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/tentang-kami/page.tsx",
-                    lineNumber: 77,
+                    lineNumber: 73,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/tentang-kami/page.tsx",
-                lineNumber: 76,
+                lineNumber: 72,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/tentang-kami/page.tsx",
-        lineNumber: 5,
+        lineNumber: 7,
         columnNumber: 9
     }, this);
 }

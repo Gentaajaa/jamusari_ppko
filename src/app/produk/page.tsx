@@ -11,7 +11,7 @@ export default function ProdukPage() {
                 title="Produk Jamusari"
                 subtitle="Koleksi lengkap jamu kekinian dengan cita rasa autentik dan khasiat yang terjaga"
                 backgroundImage="/images/hero_produk.png"
-                supportingImage="/images/hero_produk_supporting.png"
+                supportingImage="/images/hero_side_produk.png"
 
             />
 
@@ -22,9 +22,8 @@ export default function ProdukPage() {
                             <Image
                                 src="/images/produk/pelatihan_jamu.png"
                                 alt="Berbagai Minuman Jamu"
-                                className="w-full object-cover border-4 border-yellow-jamsari rounded-4xl shadow-lg"
-                                width={300}
-                                height={300}
+                                width={800}
+                                height={800}
                             />
                         </div>
                         <div className="space-y-6">
