@@ -5,11 +5,10 @@ import { Button } from "@/components/ui/button"
 
 const categories = [
     { id: "all", name: "Semua Foto" },
-    { id: "workshop", name: "Workshop" },
-    { id: "cafe", name: "Café deJamuanz" },
-    { id: "community", name: "Kegiatan Komunitas" },
+    { id: "workshop", name: "Pelatihan" },
+    { id: "cafe", name: "Jamusari" },
+    { id: "community", name: "Kegiatan" },
     { id: "products", name: "Produk" },
-    { id: "events", name: "Event & Acara" },
 ]
 
 export default function GalleryCategories() {

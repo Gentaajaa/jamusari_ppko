@@ -252,6 +252,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$gallery$2d$grid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/section/gallery-grid.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$gallery$2d$categories$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/section/gallery-categories.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$page$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/section/page-hero.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)"); //Gunakan Import Ini Jika menggunakan Gambar
+;
 ;
 ;
 ;
@@ -261,12 +263,12 @@ function GaleriPage() {
         className: "flex flex-col",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$page$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                title: "Galeri PPKO",
+                title: "Galeri Jamusari",
                 subtitle: "Dokumentasi perjalanan program PPKO dan aktivitas deJamuanz dalam memberdayakan masyarakat",
-                backgroundImage: "/cafe-gallery-collage-background.jpg"
+                backgroundImage: "/images/hero_gallery.png"
             }, void 0, false, {
                 fileName: "[project]/src/app/galeri/page.tsx",
-                lineNumber: 8,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -288,21 +290,21 @@ function GaleriPage() {
                                                 children: "Berharga"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/galeri/page.tsx",
-                                                lineNumber: 19,
+                                                lineNumber: 21,
                                                 columnNumber: 39
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/galeri/page.tsx",
-                                        lineNumber: 18,
+                                        lineNumber: 20,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-lg text-muted-foreground leading-relaxed",
-                                        children: "Setiap foto dalam galeri ini menceritakan perjalanan kami dalam mengembangkan program PPKO. Dari workshop pembuatan jamu tradisional hingga momen-momen kebersamaan di café deJamuanz, semua terekam dengan indah."
+                                        children: "Setiap foto dalam galeri ini menceritakan perjalanan kami dalam mengembangkan Jamusari. Dari pelatihan pembuatan jamu tradisional hingga momen-momen kebersamaan di Jamusari, semua terekam dengan indah."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/galeri/page.tsx",
-                                        lineNumber: 21,
+                                        lineNumber: 23,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -310,61 +312,69 @@ function GaleriPage() {
                                         children: "Kami bangga dapat berbagi cerita inspiratif tentang bagaimana tradisi dan modernitas dapat berpadu harmonis dalam setiap aktivitas yang kami lakukan."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/galeri/page.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 28,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/galeri/page.tsx",
-                                lineNumber: 17,
+                                lineNumber: 19,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/community-workshop-jamu-making.jpg",
-                                    alt: "Workshop Pembuatan Jamu",
-                                    className: "w-full h-96 object-cover rounded-2xl shadow-lg"
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/images/hero_side_gallery.png",
+                                        alt: "Jamusari",
+                                        width: 600,
+                                        height: 600
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/galeri/page.tsx",
+                                        lineNumber: 35,
+                                        columnNumber: 33
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/galeri/page.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 34,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/galeri/page.tsx",
-                                lineNumber: 31,
+                                lineNumber: 33,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/galeri/page.tsx",
-                        lineNumber: 16,
+                        lineNumber: 18,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/galeri/page.tsx",
-                    lineNumber: 15,
+                    lineNumber: 17,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/galeri/page.tsx",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$gallery$2d$categories$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/galeri/page.tsx",
-                lineNumber: 42,
+                lineNumber: 47,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$gallery$2d$grid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/galeri/page.tsx",
-                lineNumber: 43,
+                lineNumber: 48,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/galeri/page.tsx",
-        lineNumber: 7,
+        lineNumber: 9,
         columnNumber: 9
     }, this);
 }

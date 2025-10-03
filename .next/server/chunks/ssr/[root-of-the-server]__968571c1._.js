@@ -247,68 +247,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 ;
-const articles = [
-    {
-        id: 1,
-        title: "Manfaat Jamu Kunyit Asam untuk Kesehatan Wanita",
-        excerpt: "Jamu kunyit asam telah lama dikenal sebagai minuman tradisional yang memiliki banyak manfaat untuk kesehatan wanita. Artikel ini membahas kandungan nutrisi dan khasiatnya secara mendalam, termasuk cara konsumsi yang tepat dan efek samping yang perlu diperhatikan.",
-        image: "/placeholder.svg?height=300&width=400&text=Artikel+Kunyit+Asam",
-        author: "Dr. Sari Wijaya",
-        date: "15 Januari 2024",
-        readTime: "5 menit",
-        category: "Kesehatan"
-    },
-    {
-        id: 2,
-        title: "Inovasi deJamuanz: Menggabungkan Tradisi dengan Modernitas",
-        excerpt: "Program deJamuanz hadir dengan konsep inovatif yang memadukan kearifan lokal dengan teknologi modern. Simak bagaimana kami mengembangkan produk jamu kekinian yang tetap autentik dan berkualitas tinggi untuk generasi masa kini.",
-        image: "/placeholder.svg?height=300&width=400&text=Inovasi+deJamuanz",
-        author: "Ahmad Rizki",
-        date: "12 Januari 2024",
-        readTime: "7 menit",
-        category: "Inovasi"
-    },
-    {
-        id: 3,
-        title: "Resep Jamu Beras Kencur yang Mudah Dibuat di Rumah",
-        excerpt: "Ingin membuat jamu beras kencur sendiri di rumah? Artikel ini memberikan panduan lengkap mulai dari pemilihan bahan hingga cara penyajian yang tepat untuk mendapatkan khasiat optimal. Dilengkapi dengan tips penyimpanan dan variasi rasa.",
-        image: "/placeholder.svg?height=300&width=400&text=Resep+Beras+Kencur",
-        author: "Maya Kusuma",
-        date: "10 Januari 2024",
-        readTime: "6 menit",
-        category: "Resep"
-    },
-    {
-        id: 4,
-        title: "Dampak Positif PPKO terhadap Ekonomi Masyarakat Lokal",
-        excerpt: "Program PPKO tidak hanya fokus pada produk, tetapi juga pemberdayaan ekonomi masyarakat. Lihat bagaimana program ini memberikan dampak positif bagi komunitas lokal melalui pelatihan, kemitraan, dan pengembangan usaha mikro.",
-        image: "/placeholder.svg?height=300&width=400&text=Dampak+Ekonomi+PPKO",
-        author: "Budi Santoso",
-        date: "8 Januari 2024",
-        readTime: "8 menit",
-        category: "Sosial"
-    },
-    {
-        id: 5,
-        title: "Tren Jamu Kekinian di Kalangan Milenial",
-        excerpt: "Jamu kini semakin populer di kalangan generasi milenial. Artikel ini menganalisis tren konsumsi jamu modern dan faktor-faktor yang mempengaruhi popularitasnya, termasuk peran media sosial dan gaya hidup sehat.",
-        image: "/placeholder.svg?height=300&width=400&text=Tren+Jamu+Milenial",
-        author: "Dr. Sari Wijaya",
-        date: "5 Januari 2024",
-        readTime: "6 menit",
-        category: "Tren"
-    },
-    {
-        id: 6,
-        title: "Cara Memilih Jamu yang Berkualitas dan Aman",
-        excerpt: "Tidak semua jamu memiliki kualitas yang sama. Pelajari tips memilih jamu yang berkualitas, aman dikonsumsi, dan memberikan manfaat optimal untuk kesehatan Anda. Termasuk cara membaca label dan sertifikasi yang perlu diperhatikan.",
-        image: "/placeholder.svg?height=300&width=400&text=Tips+Memilih+Jamu",
-        author: "Maya Kusuma",
-        date: "3 Januari 2024",
-        readTime: "5 menit",
-        category: "Tips"
-    }
-];
+const articles = [];
 function ArtikelPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex flex-col",
@@ -316,11 +255,11 @@ function ArtikelPage() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$page$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 title: "Artikel PPKO",
                 subtitle: "Baca artikel terbaru seputar jamu, kesehatan herbal, dan perkembangan program PPKO",
-                backgroundImage: "/herbal-medicine-books-background.jpg",
-                supportingImage: "/traditional-herbs-research-books.jpg"
+                backgroundImage: "/images/hero_aboutus.png",
+                supportingImage: "/images/artikel/hero_side_artikel.png"
             }, void 0, false, {
                 fileName: "[project]/src/app/artikel/page.tsx",
-                lineNumber: 77,
+                lineNumber: 22,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -346,7 +285,7 @@ function ArtikelPage() {
                                                             className: "w-full h-64 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/artikel/page.tsx",
-                                                            lineNumber: 93,
+                                                            lineNumber: 38,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Badge"], {
@@ -354,18 +293,18 @@ function ArtikelPage() {
                                                             children: article.category
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/artikel/page.tsx",
-                                                            lineNumber: 98,
+                                                            lineNumber: 43,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/artikel/page.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 37,
                                                     columnNumber: 41
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/artikel/page.tsx",
-                                                lineNumber: 91,
+                                                lineNumber: 36,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -376,7 +315,7 @@ function ArtikelPage() {
                                                         children: article.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                        lineNumber: 106,
+                                                        lineNumber: 51,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -384,7 +323,7 @@ function ArtikelPage() {
                                                         children: article.excerpt
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                        lineNumber: 110,
+                                                        lineNumber: 55,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -397,20 +336,20 @@ function ArtikelPage() {
                                                                         className: "h-4 w-4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                                        lineNumber: 114,
+                                                                        lineNumber: 59,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: article.author
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                                        lineNumber: 115,
+                                                                        lineNumber: 60,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/artikel/page.tsx",
-                                                                lineNumber: 113,
+                                                                lineNumber: 58,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -420,20 +359,20 @@ function ArtikelPage() {
                                                                         className: "h-4 w-4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                                        lineNumber: 118,
+                                                                        lineNumber: 63,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: article.date
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                                        lineNumber: 119,
+                                                                        lineNumber: 64,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/artikel/page.tsx",
-                                                                lineNumber: 117,
+                                                                lineNumber: 62,
                                                                 columnNumber: 45
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -443,26 +382,26 @@ function ArtikelPage() {
                                                                         className: "h-4 w-4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                                        lineNumber: 122,
+                                                                        lineNumber: 67,
                                                                         columnNumber: 49
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: article.readTime
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                                        lineNumber: 123,
+                                                                        lineNumber: 68,
                                                                         columnNumber: 49
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/artikel/page.tsx",
-                                                                lineNumber: 121,
+                                                                lineNumber: 66,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                        lineNumber: 112,
+                                                        lineNumber: 57,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -481,64 +420,64 @@ function ArtikelPage() {
                                                                     d: "M9 5l7 7-7 7"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/artikel/page.tsx",
-                                                                    lineNumber: 130,
+                                                                    lineNumber: 75,
                                                                     columnNumber: 49
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/artikel/page.tsx",
-                                                                lineNumber: 129,
+                                                                lineNumber: 74,
                                                                 columnNumber: 45
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                                        lineNumber: 127,
+                                                        lineNumber: 72,
                                                         columnNumber: 41
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/artikel/page.tsx",
-                                                lineNumber: 105,
+                                                lineNumber: 50,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 34,
                                         columnNumber: 33
                                     }, this),
                                     index < articles.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "mt-12 border-b border-gray-200"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/artikel/page.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 82,
                                         columnNumber: 65
                                     }, this)
                                 ]
                             }, article.id, true, {
                                 fileName: "[project]/src/app/artikel/page.tsx",
-                                lineNumber: 88,
+                                lineNumber: 33,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/artikel/page.tsx",
-                        lineNumber: 86,
+                        lineNumber: 31,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/artikel/page.tsx",
-                    lineNumber: 85,
+                    lineNumber: 30,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/artikel/page.tsx",
-                lineNumber: 84,
+                lineNumber: 29,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/artikel/page.tsx",
-        lineNumber: 76,
+        lineNumber: 21,
         columnNumber: 9
     }, this);
 }

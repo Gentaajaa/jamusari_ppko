@@ -186,62 +186,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 ;
 ;
 ;
-const announcements = [
-    {
-        id: 1,
-        title: "Pembukaan Cabang deJamuanz Baru di Jakarta Selatan",
-        content: "Kami dengan bangga mengumumkan pembukaan cabang deJamuanz yang baru di kawasan Jakarta Selatan. Cabang ini akan menjadi flagship store dengan konsep yang lebih modern dan lengkap. Grand opening akan dilaksanakan pada tanggal 25 Januari 2024 dengan berbagai promo menarik dan doorprize untuk pengunjung.",
-        date: "20 Januari 2024",
-        type: "info",
-        priority: "high",
-        location: "Jakarta Selatan"
-    },
-    {
-        id: 2,
-        title: "Workshop Pembuatan Jamu Tradisional - Batch 3",
-        content: "Pendaftaran telah dibuka untuk workshop pembuatan jamu tradisional batch ke-3. Workshop ini akan mengajarkan teknik pembuatan jamu dari bahan-bahan alami dengan metode tradisional yang telah dimodernisasi. Peserta akan mendapatkan sertifikat dan starter kit untuk memulai usaha jamu sendiri.",
-        date: "18 Januari 2024",
-        type: "event",
-        priority: "medium",
-        location: "Pusat Pelatihan PPKO"
-    },
-    {
-        id: 3,
-        title: "Promo Spesial Ramadan - Diskon 30% untuk Paket Jamu Sehat",
-        content: "Menyambut bulan suci Ramadan, deJamuanz memberikan promo spesial berupa diskon 30% untuk semua paket jamu sehat. Promo ini berlaku untuk pembelian paket minimal 5 botol jamu pilihan. Dapatkan juga bonus tumbler eksklusif deJamuanz untuk setiap pembelian paket.",
-        date: "15 Januari 2024",
-        type: "promo",
-        priority: "high",
-        location: "Semua Cabang"
-    },
-    {
-        id: 4,
-        title: "Rekrutmen Tim Marketing dan Customer Service",
-        content: "PPKO membuka kesempatan berkarir untuk posisi Marketing Executive dan Customer Service Representative. Kami mencari kandidat yang passionate terhadap produk herbal dan memiliki kemampuan komunikasi yang baik. Kirimkan CV dan portfolio Anda ke email recruitment@ppko.id",
-        date: "12 Januari 2024",
-        type: "recruitment",
-        priority: "medium",
-        location: "Jakarta & Bandung"
-    },
-    {
-        id: 5,
-        title: "Peluncuran Aplikasi Mobile deJamuanz",
-        content: "Segera hadir aplikasi mobile deJamuanz yang memudahkan Anda untuk memesan jamu favorit secara online. Aplikasi ini dilengkapi dengan fitur konsultasi kesehatan, tracking pesanan, dan program loyalty member. Pre-register sekarang dan dapatkan voucher gratis senilai Rp 50.000.",
-        date: "10 Januari 2024",
-        type: "product",
-        priority: "high",
-        location: "Online"
-    },
-    {
-        id: 6,
-        title: "Kerjasama dengan Universitas untuk Penelitian Jamu Modern",
-        content: "PPKO menjalin kerjasama strategis dengan beberapa universitas terkemuka untuk melakukan penelitian pengembangan jamu modern. Penelitian ini bertujuan untuk meningkatkan kualitas dan efektivitas produk jamu dengan tetap mempertahankan keaslian resep tradisional.",
-        date: "8 Januari 2024",
-        type: "partnership",
-        priority: "medium",
-        location: "Jakarta & Yogyakarta"
-    }
-];
+const announcements = [];
 const getTypeColor = (type)=>{
     switch(type){
         case "info":
@@ -298,12 +243,12 @@ function AnnouncementList() {
                                                 className: "h-5 w-5 text-primary"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 57,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/announcement-list.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 56,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -313,7 +258,7 @@ function AnnouncementList() {
                                                     children: announcement.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 60,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -326,20 +271,20 @@ function AnnouncementList() {
                                                                     className: "h-4 w-4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                                    lineNumber: 121,
+                                                                    lineNumber: 63,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: announcement.date
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                                    lineNumber: 122,
+                                                                    lineNumber: 64,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                            lineNumber: 120,
+                                                            lineNumber: 62,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -349,38 +294,38 @@ function AnnouncementList() {
                                                                     className: "h-4 w-4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                                    lineNumber: 125,
+                                                                    lineNumber: 67,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     children: announcement.location
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                                    lineNumber: 126,
+                                                                    lineNumber: 68,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                            lineNumber: 124,
+                                                            lineNumber: 66,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 61,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/section/announcement-list.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 59,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                                    lineNumber: 113,
+                                    lineNumber: 55,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -391,7 +336,7 @@ function AnnouncementList() {
                                             children: getTypeLabel(announcement.type)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/announcement-list.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 74,
                                             columnNumber: 33
                                         }, this),
                                         announcement.priority === "high" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Badge"], {
@@ -399,19 +344,19 @@ function AnnouncementList() {
                                             children: "Penting"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/announcement-list.tsx",
-                                            lineNumber: 133,
+                                            lineNumber: 75,
                                             columnNumber: 70
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 73,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/section/announcement-list.tsx",
-                            lineNumber: 112,
+                            lineNumber: 54,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -419,23 +364,23 @@ function AnnouncementList() {
                             children: announcement.content
                         }, void 0, false, {
                             fileName: "[project]/src/components/section/announcement-list.tsx",
-                            lineNumber: 136,
+                            lineNumber: 78,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/section/announcement-list.tsx",
-                    lineNumber: 111,
+                    lineNumber: 53,
                     columnNumber: 21
                 }, this)
             }, announcement.id, false, {
                 fileName: "[project]/src/components/section/announcement-list.tsx",
-                lineNumber: 110,
+                lineNumber: 52,
                 columnNumber: 17
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/components/section/announcement-list.tsx",
-        lineNumber: 108,
+        lineNumber: 50,
         columnNumber: 9
     }, this);
 }
@@ -650,6 +595,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$announcement$2d$list$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/section/announcement-list.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$announcement$2d$sidebar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/section/announcement-sidebar.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$page$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/section/page-hero.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)"); //Gunakan Import Ini Jika menggunakan Gambar
+;
 ;
 ;
 ;
@@ -659,12 +606,12 @@ function PengumumanPage() {
         className: "flex flex-col",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$page$2d$hero$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                title: "Pengumuman PPKO",
-                subtitle: "Informasi terbaru dan pengumuman penting seputar program PPKO dan deJamuanz",
-                backgroundImage: "/announcement-board-background.jpg"
+                title: "Pengumuman Jamusari",
+                subtitle: "Informasi terbaru dan pengumuman penting seputar PPKO HMIF dan Jamusari",
+                backgroundImage: "/images/hero_produk.png"
             }, void 0, false, {
                 fileName: "[project]/src/app/pengumuman/page.tsx",
-                lineNumber: 8,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -676,18 +623,19 @@ function PengumumanPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/community-announcement-meeting.jpg",
-                                    alt: "Rapat Pengumuman Komunitas",
-                                    className: "w-full h-96 object-cover rounded-2xl shadow-lg"
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/images/produk/pelatihan_jamu.png",
+                                    alt: "Berbagai Minuman Jamu",
+                                    width: 600,
+                                    height: 600
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/pengumuman/page.tsx",
-                                    lineNumber: 18,
+                                    lineNumber: 20,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/pengumuman/page.tsx",
-                                lineNumber: 17,
+                                lineNumber: 19,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -702,21 +650,21 @@ function PengumumanPage() {
                                                 children: "Terkini"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/pengumuman/page.tsx",
-                                                lineNumber: 26,
+                                                lineNumber: 29,
                                                 columnNumber: 43
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/pengumuman/page.tsx",
-                                        lineNumber: 25,
+                                        lineNumber: 28,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-lg text-muted-foreground leading-relaxed",
-                                        children: "Tetap terhubung dengan perkembangan terbaru program PPKO melalui pengumuman resmi yang kami publikasikan. Dari jadwal workshop, event khusus, hingga peluang kerjasama, semua informasi penting tersedia di sini."
+                                        children: "Tetap terhubung dengan perkembangan terbaru Jamusari melalui pengumuman resmi yang kami publikasikan. Dari jadwal pelatihan, event khusus, hingga peluang kerjasama, semua informasi penting tersedia di sini."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pengumuman/page.tsx",
-                                        lineNumber: 28,
+                                        lineNumber: 31,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -724,29 +672,29 @@ function PengumumanPage() {
                                         children: "Kami berkomitmen untuk selalu memberikan informasi yang akurat dan tepat waktu kepada seluruh komunitas PPKO dan mitra deJamuanz."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/pengumuman/page.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 36,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/pengumuman/page.tsx",
-                                lineNumber: 24,
+                                lineNumber: 27,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/pengumuman/page.tsx",
-                        lineNumber: 16,
+                        lineNumber: 18,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/pengumuman/page.tsx",
-                    lineNumber: 15,
+                    lineNumber: 17,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/pengumuman/page.tsx",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -762,51 +710,51 @@ function PengumumanPage() {
                                     className: "lg:col-span-2 order-2 lg:order-1",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$announcement$2d$list$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                         fileName: "[project]/src/app/pengumuman/page.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 52,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/pengumuman/page.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 51,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "lg:col-span-1 order-1 lg:order-2",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$section$2f$announcement$2d$sidebar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                         fileName: "[project]/src/app/pengumuman/page.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 57,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/pengumuman/page.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 56,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/pengumuman/page.tsx",
-                            lineNumber: 46,
+                            lineNumber: 49,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/pengumuman/page.tsx",
-                        lineNumber: 44,
+                        lineNumber: 47,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/pengumuman/page.tsx",
-                    lineNumber: 43,
+                    lineNumber: 46,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/pengumuman/page.tsx",
-                lineNumber: 42,
+                lineNumber: 45,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/pengumuman/page.tsx",
-        lineNumber: 7,
+        lineNumber: 9,
         columnNumber: 9
     }, this);
 }

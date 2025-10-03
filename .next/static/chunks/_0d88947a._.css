@@ -1533,10 +1533,6 @@ svg.leaflet-zoom-animated {
     margin-top: calc(var(--spacing) * 12);
   }
 
-  .mt-16 {
-    margin-top: calc(var(--spacing) * 16);
-  }
-
   .mt-18 {
     margin-top: calc(var(--spacing) * 18);
   }
@@ -1668,24 +1664,8 @@ svg.leaflet-zoom-animated {
     height: calc(var(--spacing) * 32);
   }
 
-  .h-44 {
-    height: calc(var(--spacing) * 44);
-  }
-
   .h-48 {
     height: calc(var(--spacing) * 48);
-  }
-
-  .h-52 {
-    height: calc(var(--spacing) * 52);
-  }
-
-  .h-54 {
-    height: calc(var(--spacing) * 54);
-  }
-
-  .h-56 {
-    height: calc(var(--spacing) * 56);
   }
 
   .h-60 {
@@ -1696,20 +1676,8 @@ svg.leaflet-zoom-animated {
     height: calc(var(--spacing) * 64);
   }
 
-  .h-72 {
-    height: calc(var(--spacing) * 72);
-  }
-
-  .h-76 {
-    height: calc(var(--spacing) * 76);
-  }
-
   .h-80 {
     height: calc(var(--spacing) * 80);
-  }
-
-  .h-88 {
-    height: calc(var(--spacing) * 88);
   }
 
   .h-96 {
@@ -1937,10 +1905,6 @@ svg.leaflet-zoom-animated {
     justify-content: flex-end;
   }
 
-  .gap-0\.5 {
-    gap: calc(var(--spacing) * .5);
-  }
-
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
@@ -1979,10 +1943,6 @@ svg.leaflet-zoom-animated {
 
   .gap-18 {
     gap: calc(var(--spacing) * 18);
-  }
-
-  .gap-19 {
-    gap: calc(var(--spacing) * 19);
   }
 
   :where(.space-y-2 > :not(:last-child)) {
@@ -2193,14 +2153,6 @@ svg.leaflet-zoom-animated {
     border-top-right-radius: var(--radius-4xl);
   }
 
-  .rounded-tr-lg {
-    border-top-right-radius: var(--radius);
-  }
-
-  .rounded-tr-xl {
-    border-top-right-radius: calc(var(--radius)  + 4px);
-  }
-
   .rounded-bl-4xl {
     border-bottom-left-radius: var(--radius-4xl);
   }
@@ -2223,11 +2175,6 @@ svg.leaflet-zoom-animated {
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
-  }
-
-  .border-4 {
-    border-style: var(--tw-border-style);
-    border-width: 4px;
   }
 
   .border-t {
@@ -2312,10 +2259,6 @@ svg.leaflet-zoom-animated {
     .border-white\/30 {
       border-color: color-mix(in oklab, var(--color-white) 30%, transparent);
     }
-  }
-
-  .border-yellow-jamsari {
-    border-color: var(--yellow-jamsari);
   }
 
   .bg-background {
@@ -2809,10 +2752,6 @@ svg.leaflet-zoom-animated {
     padding-inline: calc(var(--spacing) * 8);
   }
 
-  .px-20 {
-    padding-inline: calc(var(--spacing) * 20);
-  }
-
   .py-0\.5 {
     padding-block: calc(var(--spacing) * .5);
   }
@@ -2841,16 +2780,8 @@ svg.leaflet-zoom-animated {
     padding-block: calc(var(--spacing) * 8);
   }
 
-  .py-12 {
-    padding-block: calc(var(--spacing) * 12);
-  }
-
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
-  }
-
-  .py-18 {
-    padding-block: calc(var(--spacing) * 18);
   }
 
   .pt-2 {
@@ -2875,10 +2806,6 @@ svg.leaflet-zoom-animated {
 
   .text-center {
     text-align: center;
-  }
-
-  .text-end {
-    text-align: end;
   }
 
   .text-left {
@@ -3901,12 +3828,6 @@ svg.leaflet-zoom-animated {
   @media (min-width: 64rem) {
     .lg\:px-8 {
       padding-inline: calc(var(--spacing) * 8);
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:px-10 {
-      padding-inline: calc(var(--spacing) * 10);
     }
   }
 

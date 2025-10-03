@@ -1,14 +1,16 @@
 import GalleryGrid from "@/components/section/gallery-grid"
 import GalleryCategories from "@/components/section/gallery-categories"
 import PageHero from "@/components/section/page-hero"
+import Image from "next/image" //Gunakan Import Ini Jika menggunakan Gambar
+
 
 export default function GaleriPage() {
     return (
         <div className="flex flex-col">
             <PageHero
-                title="Galeri PPKO"
+                title="Galeri Jamusari"
                 subtitle="Dokumentasi perjalanan program PPKO dan aktivitas deJamuanz dalam memberdayakan masyarakat"
-                backgroundImage="/cafe-gallery-collage-background.jpg"
+                backgroundImage="/images/hero_gallery.png"
             />
 
             <section className="py-16 bg-white">
@@ -19,8 +21,8 @@ export default function GaleriPage() {
                                 Momen <span className="text-primary">Berharga</span>
                             </h2>
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                Setiap foto dalam galeri ini menceritakan perjalanan kami dalam mengembangkan program PPKO. Dari
-                                workshop pembuatan jamu tradisional hingga momen-momen kebersamaan di café deJamuanz, semua terekam
+                                Setiap foto dalam galeri ini menceritakan perjalanan kami dalam mengembangkan Jamusari. Dari
+                                pelatihan pembuatan jamu tradisional hingga momen-momen kebersamaan di Jamusari, semua terekam
                                 dengan indah.
                             </p>
                             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -29,11 +31,14 @@ export default function GaleriPage() {
                             </p>
                         </div>
                         <div className="relative">
-                            <img
-                                src="/community-workshop-jamu-making.jpg"
-                                alt="Workshop Pembuatan Jamu"
-                                className="w-full h-96 object-cover rounded-2xl shadow-lg"
-                            />
+                            <div className="">
+                                <Image
+                                    src="/images/hero_side_gallery.png"
+                                    alt="Jamusari"
+                                    width={600}
+                                    height={600}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

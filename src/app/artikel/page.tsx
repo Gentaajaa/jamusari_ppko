@@ -3,72 +3,17 @@ import { Badge } from "@/components/ui/badge"
 import { Calendar, User, Clock } from "lucide-react"
 
 const articles = [
-    {
-        id: 1,
-        title: "Manfaat Jamu Kunyit Asam untuk Kesehatan Wanita",
-        excerpt:
-            "Jamu kunyit asam telah lama dikenal sebagai minuman tradisional yang memiliki banyak manfaat untuk kesehatan wanita. Artikel ini membahas kandungan nutrisi dan khasiatnya secara mendalam, termasuk cara konsumsi yang tepat dan efek samping yang perlu diperhatikan.",
-        image: "/placeholder.svg?height=300&width=400&text=Artikel+Kunyit+Asam",
-        author: "Dr. Sari Wijaya",
-        date: "15 Januari 2024",
-        readTime: "5 menit",
-        category: "Kesehatan",
-    },
-    {
-        id: 2,
-        title: "Inovasi deJamuanz: Menggabungkan Tradisi dengan Modernitas",
-        excerpt:
-            "Program deJamuanz hadir dengan konsep inovatif yang memadukan kearifan lokal dengan teknologi modern. Simak bagaimana kami mengembangkan produk jamu kekinian yang tetap autentik dan berkualitas tinggi untuk generasi masa kini.",
-        image: "/placeholder.svg?height=300&width=400&text=Inovasi+deJamuanz",
-        author: "Ahmad Rizki",
-        date: "12 Januari 2024",
-        readTime: "7 menit",
-        category: "Inovasi",
-    },
-    {
-        id: 3,
-        title: "Resep Jamu Beras Kencur yang Mudah Dibuat di Rumah",
-        excerpt:
-            "Ingin membuat jamu beras kencur sendiri di rumah? Artikel ini memberikan panduan lengkap mulai dari pemilihan bahan hingga cara penyajian yang tepat untuk mendapatkan khasiat optimal. Dilengkapi dengan tips penyimpanan dan variasi rasa.",
-        image: "/placeholder.svg?height=300&width=400&text=Resep+Beras+Kencur",
-        author: "Maya Kusuma",
-        date: "10 Januari 2024",
-        readTime: "6 menit",
-        category: "Resep",
-    },
-    {
-        id: 4,
-        title: "Dampak Positif PPKO terhadap Ekonomi Masyarakat Lokal",
-        excerpt:
-            "Program PPKO tidak hanya fokus pada produk, tetapi juga pemberdayaan ekonomi masyarakat. Lihat bagaimana program ini memberikan dampak positif bagi komunitas lokal melalui pelatihan, kemitraan, dan pengembangan usaha mikro.",
-        image: "/placeholder.svg?height=300&width=400&text=Dampak+Ekonomi+PPKO",
-        author: "Budi Santoso",
-        date: "8 Januari 2024",
-        readTime: "8 menit",
-        category: "Sosial",
-    },
-    {
-        id: 5,
-        title: "Tren Jamu Kekinian di Kalangan Milenial",
-        excerpt:
-            "Jamu kini semakin populer di kalangan generasi milenial. Artikel ini menganalisis tren konsumsi jamu modern dan faktor-faktor yang mempengaruhi popularitasnya, termasuk peran media sosial dan gaya hidup sehat.",
-        image: "/placeholder.svg?height=300&width=400&text=Tren+Jamu+Milenial",
-        author: "Dr. Sari Wijaya",
-        date: "5 Januari 2024",
-        readTime: "6 menit",
-        category: "Tren",
-    },
-    {
-        id: 6,
-        title: "Cara Memilih Jamu yang Berkualitas dan Aman",
-        excerpt:
-            "Tidak semua jamu memiliki kualitas yang sama. Pelajari tips memilih jamu yang berkualitas, aman dikonsumsi, dan memberikan manfaat optimal untuk kesehatan Anda. Termasuk cara membaca label dan sertifikasi yang perlu diperhatikan.",
-        image: "/placeholder.svg?height=300&width=400&text=Tips+Memilih+Jamu",
-        author: "Maya Kusuma",
-        date: "3 Januari 2024",
-        readTime: "5 menit",
-        category: "Tips",
-    },
+    // {
+    //     id: 1,
+    //     title: "Manfaat Jamu Kunyit Asam untuk Kesehatan Wanita",
+    //     excerpt:
+    //         "Jamu kunyit asam telah lama dikenal sebagai minuman tradisional yang memiliki banyak manfaat untuk kesehatan wanita. Artikel ini membahas kandungan nutrisi dan khasiatnya secara mendalam, termasuk cara konsumsi yang tepat dan efek samping yang perlu diperhatikan.",
+    //     image: "/placeholder.svg?height=300&width=400&text=Artikel+Kunyit+Asam",
+    //     author: "Dr. Sari Wijaya",
+    //     date: "15 Januari 2024",
+    //     readTime: "5 menit",
+    //     category: "Kesehatan",
+    // },
 ]
 
 export default function ArtikelPage() {
@@ -77,8 +22,8 @@ export default function ArtikelPage() {
             <PageHero
                 title="Artikel PPKO"
                 subtitle="Baca artikel terbaru seputar jamu, kesehatan herbal, dan perkembangan program PPKO"
-                backgroundImage="/herbal-medicine-books-background.jpg"
-                supportingImage="/traditional-herbs-research-books.jpg"
+                backgroundImage="/images/hero_aboutus.png"
+                supportingImage="/images/artikel/hero_side_artikel.png"
             />
 
             <section className="py-16 bg-white">

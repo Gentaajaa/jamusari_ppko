@@ -8,111 +8,39 @@ import { X } from "lucide-react"
 const galleryImages = [
     {
         id: 1,
-        src: "/placeholder.svg?height=500&width=400&text=Workshop+Pembuatan+Jamu",
-        alt: "Workshop Pembuatan Jamu",
-        title: "Workshop Pembuatan Jamu",
-        description: "Pelatihan pembuatan jamu tradisional untuk masyarakat lokal",
+        src: "/images/gallery/pelatihan_pembuatan.png",
+        alt: "Pelatihan Pembuatan Jamu",
+        title: "Pelatihan Pembuatan Jamu",
+        description: "Pelatihan pembuatan olahan jamu modern",
         category: "workshop",
         height: "h-80",
     },
     {
         id: 2,
-        src: "/placeholder.svg?height=300&width=400&text=Café+deJamuanz+Interior",
-        alt: "Interior Café deJamuanz",
-        title: "Interior Café deJamuanz",
-        description: "Suasana nyaman dan modern di dalam café deJamuanz",
-        category: "cafe",
+        src: "/images/gallery/pembuatan_olahan.png",
+        alt: "Pembuatan Produk Olahan Toga",
+        title: "Pembuatan Produk Olahan Toga",
+        description: "Ibu-ibu pengurus Jamusari mengolah produk olahan TOGA",
+        category: "community",
         height: "h-48",
     },
     {
         id: 3,
-        src: "/placeholder.svg?height=600&width=400&text=Tim+PPKO+Bersama+Komunitas",
-        alt: "Tim PPKO bersama komunitas",
-        title: "Kegiatan Bersama Komunitas",
-        description: "Tim PPKO berinteraksi dengan komunitas lokal",
+        src: "/images/gallery/pemberian_bibit.png",
+        alt: "Pembagian Bibit Ke Warga",
+        title: "Pemberian Bibit Ke Warga",
+        description: "Tim Pelaksana dan Ormawa membagikan bibit ke warga",
         category: "community",
         height: "h-96",
     },
     {
         id: 4,
-        src: "/placeholder.svg?height=400&width=400&text=Produk+Jamu+Kekinian",
-        alt: "Produk jamu kekinian",
-        title: "Koleksi Produk Jamu",
-        description: "Berbagai varian jamu kekinian dari deJamuanz",
-        category: "products",
+        src: "/images/gallery/after_kafe.png",
+        alt: "Tim Pelaksana Menyelesaikan Kafe",
+        title: "Tim Pelaksana Menyelesaikan Kafe",
+        description: "Tim pelaksana berhasil menyelesaikan kafe Jamusari",
+        category: "cafe",
         height: "h-64",
-    },
-    {
-        id: 5,
-        src: "/placeholder.svg?height=350&width=400&text=Event+Launching+deJamuanz",
-        alt: "Event launching deJamuanz",
-        title: "Launching deJamuanz",
-        description: "Acara peluncuran program deJamuanz",
-        category: "events",
-        height: "h-56",
-    },
-    {
-        id: 6,
-        src: "/placeholder.svg?height=450&width=400&text=Proses+Pembuatan+Jamu",
-        alt: "Proses pembuatan jamu",
-        title: "Proses Pembuatan Jamu",
-        description: "Dokumentasi proses pembuatan jamu secara tradisional",
-        category: "workshop",
-        height: "h-72",
-    },
-    {
-        id: 7,
-        src: "/placeholder.svg?height=320&width=400&text=Exterior+Café+deJamuanz",
-        alt: "Exterior café deJamuanz",
-        title: "Tampak Luar Café",
-        description: "Desain exterior café deJamuanz yang menarik",
-        category: "cafe",
-        height: "h-52",
-    },
-    {
-        id: 8,
-        src: "/placeholder.svg?height=550&width=400&text=Diskusi+Komunitas+PPKO",
-        alt: "Diskusi komunitas PPKO",
-        title: "Diskusi Komunitas",
-        description: "Sesi diskusi dan sharing pengalaman dengan komunitas",
-        category: "community",
-        height: "h-88",
-    },
-    {
-        id: 9,
-        src: "/placeholder.svg?height=280&width=400&text=Packaging+Produk+Premium",
-        alt: "Packaging produk premium",
-        title: "Packaging Premium",
-        description: "Desain kemasan produk premium deJamuanz",
-        category: "products",
-        height: "h-44",
-    },
-    {
-        id: 10,
-        src: "/placeholder.svg?height=480&width=400&text=Seminar+Kesehatan+Herbal",
-        alt: "Seminar kesehatan herbal",
-        title: "Seminar Kesehatan Herbal",
-        description: "Acara edukasi tentang manfaat jamu untuk kesehatan",
-        category: "events",
-        height: "h-76",
-    },
-    {
-        id: 11,
-        src: "/placeholder.svg?height=380&width=400&text=Pelatihan+Barista+Jamu",
-        alt: "Pelatihan barista jamu",
-        title: "Pelatihan Barista Jamu",
-        description: "Workshop khusus untuk menjadi barista jamu profesional",
-        category: "workshop",
-        height: "h-60",
-    },
-    {
-        id: 12,
-        src: "/placeholder.svg?height=340&width=400&text=Menu+Board+deJamuanz",
-        alt: "Menu board deJamuanz",
-        title: "Menu Board Café",
-        description: "Papan menu dengan berbagai pilihan jamu kekinian",
-        category: "cafe",
-        height: "h-54",
     },
 ]
 
@@ -148,11 +76,11 @@ export default function GalleryGrid() {
 
                                     <Badge className="absolute top-3 left-3 bg-primary/90 backdrop-blur-sm text-white border-0 opacity-90 group-hover:opacity-100 transition-opacity duration-300">
                                         {image.category === "workshop"
-                                            ? "Workshop"
+                                            ? "Pelatihan"
                                             : image.category === "cafe"
-                                                ? "Café"
+                                                ? "Jamusari"
                                                 : image.category === "community"
-                                                    ? "Komunitas"
+                                                    ? "Kegiatan"
                                                     : image.category === "products"
                                                         ? "Produk"
                                                         : "Event"}

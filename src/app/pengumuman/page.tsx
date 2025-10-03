@@ -1,24 +1,27 @@
 import AnnouncementList from "@/components/section/announcement-list"
 import AnnouncementSidebar from "@/components/section/announcement-sidebar"
 import PageHero from "@/components/section/page-hero"
+import Image from "next/image" //Gunakan Import Ini Jika menggunakan Gambar
+
 
 export default function PengumumanPage() {
     return (
         <div className="flex flex-col">
             <PageHero
-                title="Pengumuman PPKO"
-                subtitle="Informasi terbaru dan pengumuman penting seputar program PPKO dan deJamuanz"
-                backgroundImage="/announcement-board-background.jpg"
+                title="Pengumuman Jamusari"
+                subtitle="Informasi terbaru dan pengumuman penting seputar PPKO HMIF dan Jamusari"
+                backgroundImage="/images/hero_produk.png"
             />
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
                         <div className="relative">
-                            <img
-                                src="/community-announcement-meeting.jpg"
-                                alt="Rapat Pengumuman Komunitas"
-                                className="w-full h-96 object-cover rounded-2xl shadow-lg"
+                            <Image
+                                src="/images/produk/pelatihan_jamu.png"
+                                alt="Berbagai Minuman Jamu"
+                                width={600}
+                                height={600}
                             />
                         </div>
                         <div className="space-y-6">
@@ -26,8 +29,8 @@ export default function PengumumanPage() {
                                 Informasi <span className="text-primary">Terkini</span>
                             </h2>
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                Tetap terhubung dengan perkembangan terbaru program PPKO melalui pengumuman resmi yang kami
-                                publikasikan. Dari jadwal workshop, event khusus, hingga peluang kerjasama, semua informasi penting
+                                Tetap terhubung dengan perkembangan terbaru Jamusari melalui pengumuman resmi yang kami
+                                publikasikan. Dari jadwal pelatihan, event khusus, hingga peluang kerjasama, semua informasi penting
                                 tersedia di sini.
                             </p>
                             <p className="text-lg text-muted-foreground leading-relaxed">

@@ -4,22 +4,22 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Calendar, TrendingUp, Gift } from "lucide-react"
 
 const recentAnnouncements = [
-    { title: "Pembukaan Cabang Jakarta Selatan", date: "20 Jan 2024", type: "info" },
-    { title: "Workshop Jamu Tradisional Batch 3", date: "18 Jan 2024", type: "event" },
-    { title: "Promo Spesial Ramadan 30%", date: "15 Jan 2024", type: "promo" },
-    { title: "Rekrutmen Tim Marketing", date: "12 Jan 2024", type: "recruitment" },
-    { title: "Peluncuran Aplikasi Mobile", date: "10 Jan 2024", type: "product" },
+    // { title: "Pembukaan Cabang Jakarta Selatan", date: "20 Jan 2024", type: "info" },
+    // { title: "Workshop Jamu Tradisional Batch 3", date: "18 Jan 2024", type: "event" },
+    // { title: "Promo Spesial Ramadan 30%", date: "15 Jan 2024", type: "promo" },
+    // { title: "Rekrutmen Tim Marketing", date: "12 Jan 2024", type: "recruitment" },
+    // { title: "Peluncuran Aplikasi Mobile", date: "10 Jan 2024", type: "product" },
 ]
 
 const upcomingEvents = [
-    { title: "Grand Opening Jakarta Selatan", date: "25 Jan 2024", location: "Jakarta Selatan" },
-    { title: "Workshop Jamu Tradisional", date: "28 Jan 2024", location: "Pusat Pelatihan PPKO" },
+    // { title: "Grand Opening Jakarta Selatan", date: "25 Jan 2024", location: "Jakarta Selatan" },
+    // { title: "Workshop Jamu Tradisional", date: "28 Jan 2024", location: "Pusat Pelatihan PPKO" },
 ]
 
 const statistics = [
-    { label: "Pengumuman Bulan Ini", value: "12", icon: TrendingUp },
-    { label: "Event Aktif", value: "5", icon: Calendar },
-    { label: "Promo Berjalan", value: "3", icon: Gift },
+    // { label: "Pengumuman Bulan Ini", value: "12", icon: TrendingUp },
+    // { label: "Event Aktif", value: "5", icon: Calendar },
+    // { label: "Promo Berjalan", value: "3", icon: Gift },
 ]
 
 export default function AnnouncementSidebar() {

@@ -22,8 +22,8 @@ export default function ProdukPage() {
                             <Image
                                 src="/images/produk/pelatihan_jamu.png"
                                 alt="Berbagai Minuman Jamu"
-                                width={800}
-                                height={800}
+                                width={600}
+                                height={600}
                             />
                         </div>
                         <div className="space-y-6">

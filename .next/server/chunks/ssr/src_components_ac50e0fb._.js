@@ -66,111 +66,39 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 const galleryImages = [
     {
         id: 1,
-        src: "/placeholder.svg?height=500&width=400&text=Workshop+Pembuatan+Jamu",
-        alt: "Workshop Pembuatan Jamu",
-        title: "Workshop Pembuatan Jamu",
-        description: "Pelatihan pembuatan jamu tradisional untuk masyarakat lokal",
+        src: "/images/gallery/pelatihan_pembuatan.png",
+        alt: "Pelatihan Pembuatan Jamu",
+        title: "Pelatihan Pembuatan Jamu",
+        description: "Pelatihan pembuatan olahan jamu modern",
         category: "workshop",
         height: "h-80"
     },
     {
         id: 2,
-        src: "/placeholder.svg?height=300&width=400&text=Café+deJamuanz+Interior",
-        alt: "Interior Café deJamuanz",
-        title: "Interior Café deJamuanz",
-        description: "Suasana nyaman dan modern di dalam café deJamuanz",
-        category: "cafe",
+        src: "/images/gallery/pembuatan_olahan.png",
+        alt: "Pembuatan Produk Olahan Toga",
+        title: "Pembuatan Produk Olahan Toga",
+        description: "Ibu-ibu pengurus Jamusari mengolah produk olahan TOGA",
+        category: "community",
         height: "h-48"
     },
     {
         id: 3,
-        src: "/placeholder.svg?height=600&width=400&text=Tim+PPKO+Bersama+Komunitas",
-        alt: "Tim PPKO bersama komunitas",
-        title: "Kegiatan Bersama Komunitas",
-        description: "Tim PPKO berinteraksi dengan komunitas lokal",
+        src: "/images/gallery/pemberian_bibit.png",
+        alt: "Pembagian Bibit Ke Warga",
+        title: "Pemberian Bibit Ke Warga",
+        description: "Tim Pelaksana dan Ormawa membagikan bibit ke warga",
         category: "community",
         height: "h-96"
     },
     {
         id: 4,
-        src: "/placeholder.svg?height=400&width=400&text=Produk+Jamu+Kekinian",
-        alt: "Produk jamu kekinian",
-        title: "Koleksi Produk Jamu",
-        description: "Berbagai varian jamu kekinian dari deJamuanz",
-        category: "products",
+        src: "/images/gallery/after_kafe.png",
+        alt: "Tim Pelaksana Menyelesaikan Kafe",
+        title: "Tim Pelaksana Menyelesaikan Kafe",
+        description: "Tim pelaksana berhasil menyelesaikan kafe Jamusari",
+        category: "cafe",
         height: "h-64"
-    },
-    {
-        id: 5,
-        src: "/placeholder.svg?height=350&width=400&text=Event+Launching+deJamuanz",
-        alt: "Event launching deJamuanz",
-        title: "Launching deJamuanz",
-        description: "Acara peluncuran program deJamuanz",
-        category: "events",
-        height: "h-56"
-    },
-    {
-        id: 6,
-        src: "/placeholder.svg?height=450&width=400&text=Proses+Pembuatan+Jamu",
-        alt: "Proses pembuatan jamu",
-        title: "Proses Pembuatan Jamu",
-        description: "Dokumentasi proses pembuatan jamu secara tradisional",
-        category: "workshop",
-        height: "h-72"
-    },
-    {
-        id: 7,
-        src: "/placeholder.svg?height=320&width=400&text=Exterior+Café+deJamuanz",
-        alt: "Exterior café deJamuanz",
-        title: "Tampak Luar Café",
-        description: "Desain exterior café deJamuanz yang menarik",
-        category: "cafe",
-        height: "h-52"
-    },
-    {
-        id: 8,
-        src: "/placeholder.svg?height=550&width=400&text=Diskusi+Komunitas+PPKO",
-        alt: "Diskusi komunitas PPKO",
-        title: "Diskusi Komunitas",
-        description: "Sesi diskusi dan sharing pengalaman dengan komunitas",
-        category: "community",
-        height: "h-88"
-    },
-    {
-        id: 9,
-        src: "/placeholder.svg?height=280&width=400&text=Packaging+Produk+Premium",
-        alt: "Packaging produk premium",
-        title: "Packaging Premium",
-        description: "Desain kemasan produk premium deJamuanz",
-        category: "products",
-        height: "h-44"
-    },
-    {
-        id: 10,
-        src: "/placeholder.svg?height=480&width=400&text=Seminar+Kesehatan+Herbal",
-        alt: "Seminar kesehatan herbal",
-        title: "Seminar Kesehatan Herbal",
-        description: "Acara edukasi tentang manfaat jamu untuk kesehatan",
-        category: "events",
-        height: "h-76"
-    },
-    {
-        id: 11,
-        src: "/placeholder.svg?height=380&width=400&text=Pelatihan+Barista+Jamu",
-        alt: "Pelatihan barista jamu",
-        title: "Pelatihan Barista Jamu",
-        description: "Workshop khusus untuk menjadi barista jamu profesional",
-        category: "workshop",
-        height: "h-60"
-    },
-    {
-        id: 12,
-        src: "/placeholder.svg?height=340&width=400&text=Menu+Board+deJamuanz",
-        alt: "Menu board deJamuanz",
-        title: "Menu Board Café",
-        description: "Papan menu dengan berbagai pilihan jamu kekinian",
-        category: "cafe",
-        height: "h-54"
     }
 ];
 function GalleryGrid() {
@@ -197,7 +125,7 @@ function GalleryGrid() {
                                             className: `w-full ${image.height} object-cover transition-transform duration-300 group-hover:scale-110`
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                            lineNumber: 134,
+                                            lineNumber: 62,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -210,7 +138,7 @@ function GalleryGrid() {
                                                         children: image.title
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 72,
                                                         columnNumber: 45
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -218,52 +146,52 @@ function GalleryGrid() {
                                                         children: image.description
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                                        lineNumber: 145,
+                                                        lineNumber: 73,
                                                         columnNumber: 45
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                                lineNumber: 143,
+                                                lineNumber: 71,
                                                 columnNumber: 41
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 70,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$badge$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Badge"], {
                                             className: "absolute top-3 left-3 bg-primary/90 backdrop-blur-sm text-white border-0 opacity-90 group-hover:opacity-100 transition-opacity duration-300",
-                                            children: image.category === "workshop" ? "Workshop" : image.category === "cafe" ? "Café" : image.category === "community" ? "Komunitas" : image.category === "products" ? "Produk" : "Event"
+                                            children: image.category === "workshop" ? "Pelatihan" : image.category === "cafe" ? "Jamusari" : image.category === "community" ? "Kegiatan" : image.category === "products" ? "Produk" : "Event"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 77,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 61,
                                     columnNumber: 33
                                 }, this)
                             }, image.id, false, {
                                 fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                lineNumber: 128,
+                                lineNumber: 56,
                                 columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/section/gallery-grid.tsx",
-                        lineNumber: 126,
+                        lineNumber: 54,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/section/gallery-grid.tsx",
-                    lineNumber: 125,
+                    lineNumber: 53,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/section/gallery-grid.tsx",
-                lineNumber: 124,
+                lineNumber: 52,
                 columnNumber: 13
             }, this),
             selectedImage && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -278,12 +206,12 @@ function GalleryGrid() {
                                 className: "h-5 w-5"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                lineNumber: 175,
+                                lineNumber: 103,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/section/gallery-grid.tsx",
-                            lineNumber: 171,
+                            lineNumber: 99,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -294,7 +222,7 @@ function GalleryGrid() {
                             className: "w-full h-auto max-h-[60vh] object-contain"
                         }, void 0, false, {
                             fileName: "[project]/src/components/section/gallery-grid.tsx",
-                            lineNumber: 177,
+                            lineNumber: 105,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -305,7 +233,7 @@ function GalleryGrid() {
                                     children: selectedImage.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 113,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -313,24 +241,24 @@ function GalleryGrid() {
                                     children: selectedImage.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/section/gallery-grid.tsx",
-                                    lineNumber: 186,
+                                    lineNumber: 114,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/section/gallery-grid.tsx",
-                            lineNumber: 184,
+                            lineNumber: 112,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/section/gallery-grid.tsx",
-                    lineNumber: 170,
+                    lineNumber: 98,
                     columnNumber: 21
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/section/gallery-grid.tsx",
-                lineNumber: 169,
+                lineNumber: 97,
                 columnNumber: 17
             }, this)
         ]
@@ -358,23 +286,19 @@ const categories = [
     },
     {
         id: "workshop",
-        name: "Workshop"
+        name: "Pelatihan"
     },
     {
         id: "cafe",
-        name: "Café deJamuanz"
+        name: "Jamusari"
     },
     {
         id: "community",
-        name: "Kegiatan Komunitas"
+        name: "Kegiatan"
     },
     {
         id: "products",
         name: "Produk"
-    },
-    {
-        id: "events",
-        name: "Event & Acara"
     }
 ];
 function GalleryCategories() {
@@ -392,22 +316,22 @@ function GalleryCategories() {
                         children: category.name
                     }, category.id, false, {
                         fileName: "[project]/src/components/section/gallery-categories.tsx",
-                        lineNumber: 23,
+                        lineNumber: 22,
                         columnNumber: 25
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/section/gallery-categories.tsx",
-                lineNumber: 21,
+                lineNumber: 20,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/section/gallery-categories.tsx",
-            lineNumber: 20,
+            lineNumber: 19,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/section/gallery-categories.tsx",
-        lineNumber: 19,
+        lineNumber: 18,
         columnNumber: 9
     }, this);
 }
